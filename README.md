@@ -7,7 +7,7 @@ An auditable environment for testing how language models choose under competitio
 - **Communication:** scripted neutral messages versus promises that later become false.
 - **Engineering:** bounded requests, isolated memory, durable logs, replay, and automatic technical gates.
 
-[Saved dashboard](dashboard/index.html) · [Code map](docs/code_map.md) · [Engineering decisions](docs/engineering_decisions.md) · [Rerun guide](docs/rerun_guide.md)
+**[Open the live dashboard](https://ninaso.github.io/agent-game-environment/)** · [Code map](docs/code_map.md) · [Engineering decisions](docs/engineering_decisions.md) · [Rerun guide](docs/rerun_guide.md)
 
 ![Dashboard preview](docs/portfolio_preview.jpg)
 
@@ -25,7 +25,7 @@ Check task comprehension and presentation sensitivity before interpreting choice
 
 ## Review in five minutes—no inference
 
-1. Open the [dashboard](dashboard/index.html): goal, design, results, and limitations.
+1. Open the [live dashboard](https://ninaso.github.io/agent-game-environment/): goal, design, results, and limitations.
 2. Read the three findings above, then inspect the [diagnostic evidence](docs/payoff_diagnostic_findings.md).
 3. Follow one decision through the [code map](docs/code_map.md).
 4. Run the tiny synthetic replay fixture from a source checkout (Python 3.11+, Linux/macOS; Windows via WSL):
