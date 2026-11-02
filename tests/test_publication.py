@@ -163,3 +163,18 @@ def test_existing_checksum_or_symlink_never_overwritten(tmp_path):
             publication.build_source(out)
         assert not out.exists()
         assert sidecar.read_text() == 'keep'
+
+
+def test_site_document_links_use_rendered_repository_pages_and_preserve_fragments(tmp_path):
+    root = mini_site(tmp_path/'source')
+    page = root/'dashboard/index.html'
+    page.write_text(page.read_text().replace('</body>', '<a href="../README.md#setup">Setup</a></body>'))
+    out = tmp_path/'site'
+    publication.build_site(out, repo_url='https://github.com/example/research', root=root)
+    assert 'href="https://github.com/example/research/blob/main/README.md#setup"' in (out/'dashboard/index.html').read_text()
+    local = tmp_path/'local'
+    publication.build_site(local, root=root)
+    assert 'href="../README.md#setup"' in (local/'dashboard/index.html').read_text()
+    page.write_text('<a href="../docs/missing.md">Missing</a>')
+    with pytest.raises(ValueError, match='Missing document'):
+        publication.build_site(tmp_path/'bad', repo_url='https://github.com/example/research', root=root)

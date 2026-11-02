@@ -21,7 +21,7 @@ DOCS = {
     'payoff_diagnostic_plan.md', 'payoff_diagnostic_findings.md', 'payoff_diagnostic_review.md',
     'supervisor_review.md', 'dashboard_simplification_review.md', 'backend_pipeline.md',
     'model_onboarding.md', 'rerun_guide.md', 'engineering_decisions.md',
-    'future_communication_study.md', 'publication.md', 'CHANGELOG.md', 'adapter_pipeline_verification.json',
+    'future_communication_study.md', 'publication.md', 'interview_guide.md', 'CHANGELOG.md', 'adapter_pipeline_verification.json',
     'experiment_matrix.csv', 'requirements_evidence.csv', 'portfolio_preview.png', 'portfolio_preview.jpg',
 }
 ROOT_SOURCE = {
@@ -246,6 +246,14 @@ def build_site(out, repo_url=None, release_url=None, root=ROOT):
             if reference and _evidence(reference[0]):
                 rewritten.append({'page': name, 'target': reference[0]})
                 return match.group(1)+'"'+html.escape(release_url or '#publication-evidence', quote=True)+'"'
+            if reference and reference[0].endswith('.md') and repo_url:
+                target, fragment = reference
+                if target not in files:
+                    raise ValueError('Missing document: ' + target)
+                rendered = repo_url.rstrip('/') + '/blob/main/' + target
+                if fragment:
+                    rendered += '#' + fragment
+                return match.group(1)+'"'+html.escape(rendered, quote=True)+'"'
             return match.group(0)
         text = re.sub(r'(href=)"([^"]+)"', replace, text)
         note = ('<section id="publication-evidence" class="publication-evidence"><p>Raw journals and full traces are distributed separately from this static site. '

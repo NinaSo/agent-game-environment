@@ -1,6 +1,35 @@
 # Review, build, and publish
 
-The dashboard is a static presentation of saved results. Building or opening it does not run experiments. No repository or deployed-site URL is assumed in this checkout.
+The dashboard is a static presentation of saved results. Building or opening it does not run experiments. The dashboard is published through GitHub Pages; its code and evidence are linked below.
+
+## Published project and evidence
+
+- [Live dashboard](https://ninaso.github.io/agent-game-environment/)
+- [Source repository](https://github.com/NinaSo/agent-game-environment)
+- [Full evidence release: 2 November 2026](https://github.com/NinaSo/agent-game-environment/releases/tag/evidence-2026-11-02)
+
+Download `agent-game-lab-evidence.zip` (91,563,429 bytes) and `SHA256SUMS` from the release. Verify before extracting, from the download directory:
+
+```sh
+shasum -a 256 -c SHA256SUMS
+python3 -m zipfile -e agent-game-lab-evidence.zip evidence
+```
+
+On Linux, `sha256sum -c SHA256SUMS` is an alternative. The expected archive SHA-256 is `334e7bc39cbeddb544dd8656038a99104b09e91428a76f4006a650d0e36cf537`.
+
+Paths below are relative to `evidence/agent_game_lab/`:
+
+| Evidence | Where to find it |
+| --- | --- |
+| Original PD/bandit records | `runs/pilot_core.sqlite`, `results/pilot_core_trace.json` |
+| Original scripted-message pilot | `runs/pilot_stress.sqlite`, `results/pilot_stress_trace.json` |
+| Revised communication | `communication/runs/semantic_main.sqlite`, `results/communication/trace.json` |
+| Reward controls | `followups/runs/payoff_checks.sqlite`, `results/followups/evidence.json` |
+| Payoff diagnostic | `diagnostic/runs/main.sqlite`, `results/diagnostic/evidence.json` |
+| Programmed baselines | `runs/baselines.sqlite`, `results/baselines_trace.json` |
+| Collection implementations | `runs/source_snapshot/` and study-specific source snapshots included in the archive |
+
+The archive is a preserved review snapshot, not the latest source distribution. Its documentation predates the public repository's licensing and publication edits. Use the repository for current setup and code; retain archived collection snapshots when investigating historical records. Smoke journals are identified separately and excluded from main-study counts. The archive contains generated task prompts and model replies, not model weights or API keys. The checksum identifies the released bytes; it does not independently validate the experiment's scientific claims.
 
 ## Review locally without models
 
