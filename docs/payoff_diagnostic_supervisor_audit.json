@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "cases_independently_scored": 480,
+  "correct": {
+    "('gemma3:4b', 'full_direct')": 42,
+    "('gemma3:4b', 'full_extract_choose')": 60,
+    "('gemma3:4b', 'relevant_direct')": 51,
+    "('qwen3:4b', 'full_direct')": 37,
+    "('qwen3:4b', 'relevant_direct')": 62,
+    "('qwen3:4b', 'full_extract_choose')": 38
+  },
+  "exact_extraction": {
+    "gemma3:4b": 22,
+    "qwen3:4b": 26
+  },
+  "extraction_choice_contingency": {
+    "('gemma3:4b', False, False)": 20,
+    "('gemma3:4b', False, True)": 38,
+    "('gemma3:4b', True, True)": 22,
+    "('qwen3:4b', True, True)": 24,
+    "('qwen3:4b', False, False)": 40,
+    "('qwen3:4b', False, True)": 14,
+    "('qwen3:4b', True, False)": 2
+  }
+}

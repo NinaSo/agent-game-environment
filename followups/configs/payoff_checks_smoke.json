@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "run_id": "payoff_checks_smoke",
+  "phase": "excluded_smoke",
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 64
+  },
+  "max_calls": 12,
+  "max_seconds": 600,
+  "max_attempts": 3,
+  "timeout_seconds": 120,
+  "cases": [
+    {
+      "study": "known_reward",
+      "model": "qwen3:4b",
+      "label_pair": "KM",
+      "mapping": 1,
+      "prompt_order": 1,
+      "schema_order": 0,
+      "repeat": 0,
+      "opponent_choice": null,
+      "id": "a936221f6e853287b5e7eccc",
+      "decoder_seed": 71374391
+    },
+    {
+      "study": "fixed_opponent_pd",
+      "model": "qwen3:4b",
+      "label_pair": "AB",
+      "mapping": 1,
+      "prompt_order": 1,
+      "schema_order": 0,
+      "repeat": 1,
+      "opponent_choice": "A",
+      "id": "f8e60d4364861f532a95e909",
+      "decoder_seed": 759111587
+    },
+    {
+      "study": "known_reward",
+      "model": "gemma3:4b",
+      "label_pair": "AB",
+      "mapping": 0,
+      "prompt_order": 1,
+      "schema_order": 0,
+      "repeat": 2,
+      "opponent_choice": null,
+      "id": "dfcfe8aecc7f2494c3e8de00",
+      "decoder_seed": 1825055831
+    },
+    {
+      "study": "fixed_opponent_pd",
+      "model": "gemma3:4b",
+      "label_pair": "AB",
+      "mapping": 1,
+      "prompt_order": 0,
+      "schema_order": 0,
+      "repeat": 3,
+      "opponent_choice": "B",
+      "id": "5e81bd52e1d268b81943ce30",
+      "decoder_seed": 542986343
+    }
+  ]
+}

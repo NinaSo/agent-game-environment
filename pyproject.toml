@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-game-lab"
+version = "0.1.0"
+description = "Auditable behavioral evaluation environments for language models"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.4.2"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+plots = ["matplotlib==3.10.8"]
+
+[tool.setuptools]
+py-modules = ["analyze", "make_configs", "make_pipeline_figure", "make_followup_figure", "make_communication_figure", "make_diagnostic_figure", "make_dashboard_figures", "serve", "package_review"]
+
+[tool.setuptools.packages.find]
+include = ["game_lab*", "followups*", "communication*", "diagnostic*"]

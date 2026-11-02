@@ -1,0 +1,88 @@
+{
+  "purpose": "Engineering validation only; not pooled with scientific results",
+  "unit_tests": {
+    "passed": 202,
+    "subtests_passed": 52
+  },
+  "live_ollama": {
+    "smoke_game_decisions": 12,
+    "validation_game_decisions": 12,
+    "diagnostic_smoke_cases": 6,
+    "gate_reports": [
+      "runs/adapter_validation/main.sqlite.preflight/gate.json",
+      "diagnostic/runs/adapter_validation_smoke.sqlite.preflight/gate.json"
+    ]
+  },
+  "remote_adapters": {
+    "backends": [
+      "openrouter",
+      "vllm",
+      "sglang"
+    ],
+    "validation": "Mocked API contract and end-to-end pipeline tests; not tested against live deployments"
+  },
+  "historical_replay": {
+    "databases": 10,
+    "status": "passed in independent review"
+  },
+  "reviews": {
+    "correctness": "approved",
+    "integrity": "approved",
+    "resolved": [
+      "Fatal provider errors stop the run",
+      "Fatal markers survive restart and commit atomically with failed attempt",
+      "HTTP error bodies omitted to prevent reflected credential logging"
+    ]
+  },
+  "source_hashes": {
+    "analyze.py": "b4a192bb5daf7413e10803bcc293854deac5aa70da7c09b2e7d65792c7ac0d1a",
+    "communication/__init__.py": "224f835150cc26518338e43e22fcb5ea6e46dc10598826c8d7eaa5130aa7fad5",
+    "communication/design.py": "ceec0419a9ac8a856d1f75dfd967bd413c90bc72e9c814f1acb32cd2c6651326",
+    "communication/report.py": "a8a4a40a506072bae5a156328c6f768e2167af34034f4929a296b20afcc728dc",
+    "diagnostic/__init__.py": "08dec2d01f44b2c78b71acb52b3a4db7d8ddfc35bc473af46ed1cf1857b4764f",
+    "diagnostic/__main__.py": "3f62c54914d03b5e2b02845c63fd4230f9f06f1bf929e0bb5c57c0a513ba17c4",
+    "diagnostic/collection.py": "1e4ca7f0d1bbe7edeaa0720ef9eec411d51bd11886b960bc82679fe108e69bd4",
+    "diagnostic/design.py": "96eee85210eb8707aa50ba746994c0eae279a7794a97c4303d452602d8304b7e",
+    "diagnostic/report.py": "a614d7c3031e37fd8911b74c2168e6820d4aef5f2916f40a4efc62e6fbb0be18",
+    "followups/__init__.py": "99c20398544631bb2efd8db3a9cefe633e6fdbb13d872bfb97e99cc88f7fca77",
+    "followups/__main__.py": "9cc5f4af28ce07d8afa0aa577974b134a36f668aca50d5ad24fd7648d06de045",
+    "followups/studies.py": "b4a979b9caac90650a94be4b3213e87bc97b0f641744724e6dbc637aaba3128e",
+    "game_lab/__init__.py": "262302b9f2681aedc496dd6e8d1c8010c40e1d47698d4324719b3aa82cc1d4d9",
+    "game_lab/__main__.py": "2647bef0de9c7eae722e01ed3e6be74171eb851ab2c2402ce68209d5dfa4ba5c",
+    "game_lab/adapters.py": "8a10368eab93ac0e2db7d58477731bfb37a78e1a9ef14f8faec014ae37c552e1",
+    "game_lab/engine.py": "875143ec37c4139de2a8fe972edd44481cc2f56cb2435b608ca62593e6789e7c",
+    "game_lab/models.py": "3fc86edeca1eee8c4394ce21bb28fa0c879261c8e039e63aa5e603ac005e8580",
+    "game_lab/pipeline.py": "df097e3e7ade874ab82bbaa9786d45990d9883e0a3d9ecc8c535a2ab04dbe062",
+    "game_lab/provider.py": "c2d7b36f2911cc025a14bc6fe2c4b20b773992796610b8a06eded7c97f8b76c3",
+    "game_lab/runner.py": "80734707e721f4e4b89a6cd5bd5edc2b6e4798aff353f68fedb87a5dc29ef64f",
+    "game_lab/store.py": "e2e9d8240ed74530dc1bd00d9626525a872a023a98aead07aeaecf8d1290d162",
+    "make_communication_figure.py": "f3abfe6e7948fd9512ac37ec6390c6655f13ee6dca0a1758760892295a859631",
+    "make_configs.py": "6e8189a1e5454eb0724f8c4edc30c7668d1d4cf71c55dd51ac2ec79ca177dd32",
+    "make_dashboard_figures.py": "5f6412395fdf4b84e3c1a57585311b5c6d15108f61ca25bc28e8bb44187a32e5",
+    "make_diagnostic_figure.py": "996db066a6d91936390fe542efcc9986cd2b425d296d723950dc7dbd0cdc5e77",
+    "make_followup_figure.py": "96b27bdf31e847563f1c73a48147480ff4f25cffffc08b5aafbd5703569ada29",
+    "make_pipeline_figure.py": "de2feb8c78556b8334ee4f2dbe3c2e675f945f2720103629cbf1f5e72fde188c",
+    "package_review.py": "d0dfe60df3dc4c1034daf03e2041c1917fc6d7263ec6fcd034a0b1a96e80b621",
+    "pyproject.toml": "aa970e9e7234223b38b8615dd82264e39768a3647a27dab015eaffc25a12a48f",
+    "serve.py": "a71b81919d9be8d6aa646bf7d07b704ad4f3162aeb13306a3546d795b4054c07",
+    "tests/test_adapters.py": "3c1a0074058fb8fc4efba18610595199776c44de504f1007329116fd6bff09e4",
+    "tests/test_analysis_review.py": "56642e85a816ebd4c3301891116ad932c4b86f6d6c4abee9cf0cb3d11f8e6f36",
+    "tests/test_bandit_reporting.py": "b58710dff503fc26b9eb847bbe160cbdab5737b7d8883bd887e08d99dbd8488c",
+    "tests/test_communication.py": "2e5938e1dd718242afdf6a9487e5478424f2b57931227bcb75d954ba2db29928",
+    "tests/test_communication_correctness.py": "925ad42b51a7358619362a77df5696fac47cceab7371dfa96311d9ec1b7af5c1",
+    "tests/test_core.py": "2f36a69e6540640ae15330514eb065e998d0987e12520874ed08ecec5e607eed",
+    "tests/test_correctness_review.py": "ff39c1c3d6755ad4527030ecebcb9e5461dabef4d5a2ed6debb4229bf986109c",
+    "tests/test_dashboard_integrity.py": "f722a912c6dd59ed42b5fa6514c411675d78dc33e9483a68d049695af1168840",
+    "tests/test_diagnostic.py": "2847fae6177cca8862de4315e36ff957594a6dba1e1aa41e122d6dbbaa5da6cf",
+    "tests/test_diagnostic_integrity.py": "8450bcc955209dc8aa96dbd548fe7f74d35dd090b640166821c0812a11db6ecf",
+    "tests/test_diagnostic_review.py": "64a683b9ce800acef087d730ba55abbac4d78b05e37b356db6e386b9899d7119",
+    "tests/test_followup_correctness_review.py": "0d1ace2155929296a56508b1e9560b032b180412ddb74f7d4c0b3114d72eedd2",
+    "tests/test_followups.py": "78d813d2d3e2ce0a4bff6ef91e50526cab1b0b55776645d7020ab9e867a66160",
+    "tests/test_followups_integrity.py": "065f446396e832aa7717f61927daf0c74c79903c1cce3ba86124ac2a2c7ebe9f",
+    "tests/test_integrity_review.py": "d633211c6f1c6ac985b4a20c626eaf701d1f159e03b4c8c8c7305e724de45663",
+    "tests/test_model_selection.py": "6349a7142d41ba3524f6c36f2774dde30aeb7b9c5ed81fb770be6550d819ffa0",
+    "tests/test_package_integrity.py": "673036b5f8213a1e096dd4ab0b9f6f79a7b5417eda9d34db65f686aa242749a0",
+    "tests/test_pipeline.py": "78b96bec8212e7b87cc7397c2770c5ae5577ac686a808631cefe3a6d3b73ac46",
+    "tests/test_semantic_integrity.py": "2cfdacf9d3b13728d33ea40b97464cafe2d02558a224508c1bde44d8bc76d5ff"
+  }
+}

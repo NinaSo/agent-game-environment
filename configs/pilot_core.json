@@ -1,0 +1,700 @@
+{
+  "run_id": "pilot_core_20261027_v1",
+  "seed": 20261027,
+  "episodes": [
+    {
+      "id": "0000-bandit-03",
+      "block_id": "bandit-03",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "id": "0001-bandit-10",
+      "block_id": "bandit-10",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.7,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "id": "0002-pd-07-C1",
+      "block_id": "pd-07",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0003-pd-11-C3",
+      "block_id": "pd-11",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0004-pd-10-C3",
+      "block_id": "pd-10",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0005-bandit-02",
+      "block_id": "bandit-02",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "id": "0006-bandit-11",
+      "block_id": "bandit-11",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.7,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "id": "0007-bandit-00",
+      "block_id": "bandit-00",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0008-pd-05-C3",
+      "block_id": "pd-05",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0009-pd-03-C1",
+      "block_id": "pd-03",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0010-pd-09-C2",
+      "block_id": "pd-09",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0011-pd-03-C2",
+      "block_id": "pd-03",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0012-pd-00-C3",
+      "block_id": "pd-00",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0013-pd-08-C3",
+      "block_id": "pd-08",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0014-pd-02-C2",
+      "block_id": "pd-02",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0015-pd-07-C3",
+      "block_id": "pd-07",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0016-pd-01-C3",
+      "block_id": "pd-01",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0017-pd-04-C3",
+      "block_id": "pd-04",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0018-pd-02-C1",
+      "block_id": "pd-02",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0019-pd-05-C2",
+      "block_id": "pd-05",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0020-pd-03-C3",
+      "block_id": "pd-03",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0021-pd-11-C2",
+      "block_id": "pd-11",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0022-bandit-04",
+      "block_id": "bandit-04",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.5,
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "id": "0023-pd-10-C1",
+      "block_id": "pd-10",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0024-pd-11-C1",
+      "block_id": "pd-11",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0025-pd-04-C2",
+      "block_id": "pd-04",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0026-pd-04-C1",
+      "block_id": "pd-04",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0027-pd-06-C2",
+      "block_id": "pd-06",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0028-pd-00-C1",
+      "block_id": "pd-00",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0029-bandit-05",
+      "block_id": "bandit-05",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.5,
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "id": "0030-bandit-09",
+      "block_id": "bandit-09",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.7,
+        0.3,
+        0.5
+      ]
+    },
+    {
+      "id": "0031-bandit-06",
+      "block_id": "bandit-06",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.5,
+        0.7,
+        0.3
+      ]
+    },
+    {
+      "id": "0032-pd-05-C1",
+      "block_id": "pd-05",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0033-bandit-08",
+      "block_id": "bandit-08",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.7,
+        0.3,
+        0.5
+      ]
+    },
+    {
+      "id": "0034-pd-07-C2",
+      "block_id": "pd-07",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0035-pd-06-C3",
+      "block_id": "pd-06",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0036-pd-08-C2",
+      "block_id": "pd-08",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0037-pd-09-C3",
+      "block_id": "pd-09",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0038-pd-10-C2",
+      "block_id": "pd-10",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0039-pd-01-C2",
+      "block_id": "pd-01",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0040-pd-06-C1",
+      "block_id": "pd-06",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0041-pd-00-C2",
+      "block_id": "pd-00",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0042-pd-09-C1",
+      "block_id": "pd-09",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0043-bandit-07",
+      "block_id": "bandit-07",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.5,
+        0.7,
+        0.3
+      ]
+    },
+    {
+      "id": "0044-pd-02-C3",
+      "block_id": "pd-02",
+      "task": "pd",
+      "condition": "C3",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "B"
+    },
+    {
+      "id": "0045-pd-01-C1",
+      "block_id": "pd-01",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0046-bandit-01",
+      "block_id": "bandit-01",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "gemma3:4b",
+        "qwen3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0047-pd-08-C1",
+      "block_id": "pd-08",
+      "task": "pd",
+      "condition": "C1",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    }
+  ],
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 64
+  },
+  "max_calls": 3960,
+  "max_seconds": 21600,
+  "max_attempts": 3,
+  "timeout_seconds": 120
+}

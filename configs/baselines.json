@@ -1,0 +1,7281 @@
+{
+  "run_id": "baselines_20261027_v1",
+  "seed": 20261027,
+  "episodes": [
+    {
+      "id": "0000-baseline-bandit-009-random",
+      "block_id": "baseline-bandit-009",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0001-baseline-bandit-061-oracle",
+      "block_id": "baseline-bandit-061",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0002-baseline-bandit-022-oracle",
+      "block_id": "baseline-bandit-022",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0003-baseline-bandit-033-random",
+      "block_id": "baseline-bandit-033",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0004-baseline-bandit-025-greedy",
+      "block_id": "baseline-bandit-025",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0005-baseline-bandit-046-oracle",
+      "block_id": "baseline-bandit-046",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0006-baseline-bandit-081-oracle",
+      "block_id": "baseline-bandit-081",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0007-baseline-bandit-025-random",
+      "block_id": "baseline-bandit-025",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0008-baseline-bandit-027-ucb1",
+      "block_id": "baseline-bandit-027",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0009-baseline-bandit-007-random",
+      "block_id": "baseline-bandit-007",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0010-baseline-bandit-093-greedy",
+      "block_id": "baseline-bandit-093",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0011-baseline-bandit-089-oracle",
+      "block_id": "baseline-bandit-089",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0012-baseline-bandit-044-ucb1",
+      "block_id": "baseline-bandit-044",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0013-baseline-bandit-084-ucb1",
+      "block_id": "baseline-bandit-084",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0014-baseline-bandit-078-greedy",
+      "block_id": "baseline-bandit-078",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0015-baseline-bandit-005-oracle",
+      "block_id": "baseline-bandit-005",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0016-baseline-bandit-032-random",
+      "block_id": "baseline-bandit-032",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0017-baseline-bandit-042-ucb1",
+      "block_id": "baseline-bandit-042",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0018-baseline-bandit-027-random",
+      "block_id": "baseline-bandit-027",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0019-baseline-bandit-050-random",
+      "block_id": "baseline-bandit-050",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0020-baseline-bandit-082-greedy",
+      "block_id": "baseline-bandit-082",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0021-baseline-bandit-057-ucb1",
+      "block_id": "baseline-bandit-057",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0022-baseline-bandit-089-ucb1",
+      "block_id": "baseline-bandit-089",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0023-baseline-bandit-079-ucb1",
+      "block_id": "baseline-bandit-079",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0024-baseline-bandit-099-oracle",
+      "block_id": "baseline-bandit-099",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0025-baseline-bandit-074-greedy",
+      "block_id": "baseline-bandit-074",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0026-baseline-bandit-056-random",
+      "block_id": "baseline-bandit-056",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0027-baseline-bandit-091-random",
+      "block_id": "baseline-bandit-091",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0028-baseline-bandit-030-oracle",
+      "block_id": "baseline-bandit-030",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0029-baseline-bandit-090-greedy",
+      "block_id": "baseline-bandit-090",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0030-baseline-bandit-059-random",
+      "block_id": "baseline-bandit-059",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0031-baseline-bandit-087-ucb1",
+      "block_id": "baseline-bandit-087",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0032-baseline-bandit-087-greedy",
+      "block_id": "baseline-bandit-087",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0033-baseline-bandit-039-random",
+      "block_id": "baseline-bandit-039",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0034-baseline-bandit-064-greedy",
+      "block_id": "baseline-bandit-064",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0035-baseline-bandit-058-greedy",
+      "block_id": "baseline-bandit-058",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0036-baseline-bandit-020-ucb1",
+      "block_id": "baseline-bandit-020",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0037-baseline-bandit-097-oracle",
+      "block_id": "baseline-bandit-097",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0038-baseline-bandit-014-greedy",
+      "block_id": "baseline-bandit-014",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0039-baseline-bandit-051-random",
+      "block_id": "baseline-bandit-051",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0040-baseline-bandit-045-oracle",
+      "block_id": "baseline-bandit-045",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0041-baseline-bandit-006-greedy",
+      "block_id": "baseline-bandit-006",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0042-baseline-bandit-014-oracle",
+      "block_id": "baseline-bandit-014",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0043-baseline-bandit-013-ucb1",
+      "block_id": "baseline-bandit-013",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0044-baseline-bandit-057-oracle",
+      "block_id": "baseline-bandit-057",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0045-baseline-bandit-045-ucb1",
+      "block_id": "baseline-bandit-045",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0046-baseline-bandit-039-ucb1",
+      "block_id": "baseline-bandit-039",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0047-baseline-bandit-036-ucb1",
+      "block_id": "baseline-bandit-036",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0048-baseline-bandit-048-ucb1",
+      "block_id": "baseline-bandit-048",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0049-baseline-bandit-085-oracle",
+      "block_id": "baseline-bandit-085",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0050-baseline-bandit-006-oracle",
+      "block_id": "baseline-bandit-006",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0051-baseline-bandit-090-ucb1",
+      "block_id": "baseline-bandit-090",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0052-baseline-bandit-017-random",
+      "block_id": "baseline-bandit-017",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0053-baseline-bandit-069-oracle",
+      "block_id": "baseline-bandit-069",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0054-baseline-bandit-063-ucb1",
+      "block_id": "baseline-bandit-063",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0055-baseline-bandit-038-ucb1",
+      "block_id": "baseline-bandit-038",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0056-baseline-bandit-012-ucb1",
+      "block_id": "baseline-bandit-012",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0057-baseline-bandit-047-oracle",
+      "block_id": "baseline-bandit-047",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0058-baseline-bandit-043-ucb1",
+      "block_id": "baseline-bandit-043",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0059-baseline-bandit-023-greedy",
+      "block_id": "baseline-bandit-023",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0060-baseline-bandit-013-greedy",
+      "block_id": "baseline-bandit-013",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0061-baseline-bandit-073-greedy",
+      "block_id": "baseline-bandit-073",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0062-baseline-bandit-082-ucb1",
+      "block_id": "baseline-bandit-082",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0063-baseline-bandit-007-greedy",
+      "block_id": "baseline-bandit-007",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0064-baseline-bandit-073-ucb1",
+      "block_id": "baseline-bandit-073",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0065-baseline-bandit-060-greedy",
+      "block_id": "baseline-bandit-060",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0066-baseline-bandit-054-random",
+      "block_id": "baseline-bandit-054",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0067-baseline-bandit-016-ucb1",
+      "block_id": "baseline-bandit-016",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0068-baseline-pd-1",
+      "block_id": "baseline-pd-1",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "script:defect",
+        "script:switch"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0069-baseline-bandit-072-ucb1",
+      "block_id": "baseline-bandit-072",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0070-baseline-bandit-083-greedy",
+      "block_id": "baseline-bandit-083",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0071-baseline-bandit-065-greedy",
+      "block_id": "baseline-bandit-065",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0072-baseline-bandit-074-ucb1",
+      "block_id": "baseline-bandit-074",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0073-baseline-bandit-013-oracle",
+      "block_id": "baseline-bandit-013",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0074-baseline-bandit-021-greedy",
+      "block_id": "baseline-bandit-021",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0075-baseline-bandit-035-random",
+      "block_id": "baseline-bandit-035",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0076-baseline-bandit-001-random",
+      "block_id": "baseline-bandit-001",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0077-baseline-bandit-072-random",
+      "block_id": "baseline-bandit-072",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0078-baseline-bandit-079-random",
+      "block_id": "baseline-bandit-079",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0079-baseline-bandit-092-ucb1",
+      "block_id": "baseline-bandit-092",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0080-baseline-bandit-059-ucb1",
+      "block_id": "baseline-bandit-059",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0081-baseline-bandit-081-random",
+      "block_id": "baseline-bandit-081",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0082-baseline-bandit-060-oracle",
+      "block_id": "baseline-bandit-060",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0083-baseline-bandit-021-ucb1",
+      "block_id": "baseline-bandit-021",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0084-baseline-bandit-050-ucb1",
+      "block_id": "baseline-bandit-050",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0085-baseline-pd-4",
+      "block_id": "baseline-pd-4",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "script:random",
+        "script:switch"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0086-baseline-bandit-067-greedy",
+      "block_id": "baseline-bandit-067",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0087-baseline-bandit-093-ucb1",
+      "block_id": "baseline-bandit-093",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0088-baseline-bandit-046-ucb1",
+      "block_id": "baseline-bandit-046",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0089-baseline-bandit-034-oracle",
+      "block_id": "baseline-bandit-034",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0090-baseline-bandit-039-greedy",
+      "block_id": "baseline-bandit-039",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0091-baseline-bandit-054-ucb1",
+      "block_id": "baseline-bandit-054",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0092-baseline-bandit-045-random",
+      "block_id": "baseline-bandit-045",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0093-baseline-bandit-085-random",
+      "block_id": "baseline-bandit-085",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0094-baseline-bandit-086-random",
+      "block_id": "baseline-bandit-086",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0095-baseline-bandit-046-random",
+      "block_id": "baseline-bandit-046",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0096-baseline-bandit-068-ucb1",
+      "block_id": "baseline-bandit-068",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0097-baseline-bandit-094-oracle",
+      "block_id": "baseline-bandit-094",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0098-baseline-bandit-001-ucb1",
+      "block_id": "baseline-bandit-001",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0099-baseline-bandit-002-ucb1",
+      "block_id": "baseline-bandit-002",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0100-baseline-bandit-055-random",
+      "block_id": "baseline-bandit-055",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0101-baseline-bandit-035-oracle",
+      "block_id": "baseline-bandit-035",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0102-baseline-bandit-018-greedy",
+      "block_id": "baseline-bandit-018",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0103-baseline-bandit-083-random",
+      "block_id": "baseline-bandit-083",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0104-baseline-bandit-068-random",
+      "block_id": "baseline-bandit-068",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0105-baseline-bandit-016-random",
+      "block_id": "baseline-bandit-016",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0106-baseline-bandit-046-greedy",
+      "block_id": "baseline-bandit-046",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0107-baseline-bandit-022-greedy",
+      "block_id": "baseline-bandit-022",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0108-baseline-bandit-028-ucb1",
+      "block_id": "baseline-bandit-028",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0109-baseline-bandit-002-greedy",
+      "block_id": "baseline-bandit-002",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0110-baseline-bandit-096-ucb1",
+      "block_id": "baseline-bandit-096",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0111-baseline-bandit-006-ucb1",
+      "block_id": "baseline-bandit-006",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0112-baseline-bandit-048-random",
+      "block_id": "baseline-bandit-048",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0113-baseline-bandit-078-ucb1",
+      "block_id": "baseline-bandit-078",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0114-baseline-bandit-091-ucb1",
+      "block_id": "baseline-bandit-091",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0115-baseline-bandit-041-greedy",
+      "block_id": "baseline-bandit-041",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0116-baseline-bandit-038-oracle",
+      "block_id": "baseline-bandit-038",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0117-baseline-bandit-060-random",
+      "block_id": "baseline-bandit-060",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0118-baseline-bandit-021-random",
+      "block_id": "baseline-bandit-021",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0119-baseline-bandit-017-oracle",
+      "block_id": "baseline-bandit-017",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0120-baseline-bandit-048-oracle",
+      "block_id": "baseline-bandit-048",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0121-baseline-bandit-084-random",
+      "block_id": "baseline-bandit-084",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0122-baseline-bandit-070-random",
+      "block_id": "baseline-bandit-070",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0123-baseline-bandit-014-random",
+      "block_id": "baseline-bandit-014",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0124-baseline-bandit-050-oracle",
+      "block_id": "baseline-bandit-050",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0125-baseline-bandit-057-greedy",
+      "block_id": "baseline-bandit-057",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0126-baseline-bandit-061-ucb1",
+      "block_id": "baseline-bandit-061",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0127-baseline-bandit-002-random",
+      "block_id": "baseline-bandit-002",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0128-baseline-bandit-011-greedy",
+      "block_id": "baseline-bandit-011",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0129-baseline-bandit-094-ucb1",
+      "block_id": "baseline-bandit-094",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0130-baseline-bandit-056-greedy",
+      "block_id": "baseline-bandit-056",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0131-baseline-bandit-075-greedy",
+      "block_id": "baseline-bandit-075",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0132-baseline-bandit-009-greedy",
+      "block_id": "baseline-bandit-009",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0133-baseline-bandit-080-ucb1",
+      "block_id": "baseline-bandit-080",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0134-baseline-bandit-095-oracle",
+      "block_id": "baseline-bandit-095",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0135-baseline-bandit-086-oracle",
+      "block_id": "baseline-bandit-086",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0136-baseline-bandit-081-ucb1",
+      "block_id": "baseline-bandit-081",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0137-baseline-bandit-068-greedy",
+      "block_id": "baseline-bandit-068",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0138-baseline-bandit-016-oracle",
+      "block_id": "baseline-bandit-016",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0139-baseline-bandit-041-oracle",
+      "block_id": "baseline-bandit-041",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0140-baseline-bandit-022-ucb1",
+      "block_id": "baseline-bandit-022",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0141-baseline-bandit-098-ucb1",
+      "block_id": "baseline-bandit-098",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0142-baseline-bandit-096-random",
+      "block_id": "baseline-bandit-096",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0143-baseline-bandit-029-ucb1",
+      "block_id": "baseline-bandit-029",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0144-baseline-bandit-010-greedy",
+      "block_id": "baseline-bandit-010",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0145-baseline-bandit-023-ucb1",
+      "block_id": "baseline-bandit-023",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0146-baseline-bandit-035-greedy",
+      "block_id": "baseline-bandit-035",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0147-baseline-bandit-057-random",
+      "block_id": "baseline-bandit-057",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0148-baseline-bandit-097-random",
+      "block_id": "baseline-bandit-097",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0149-baseline-bandit-029-oracle",
+      "block_id": "baseline-bandit-029",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0150-baseline-bandit-072-oracle",
+      "block_id": "baseline-bandit-072",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0151-baseline-bandit-094-greedy",
+      "block_id": "baseline-bandit-094",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0152-baseline-bandit-019-oracle",
+      "block_id": "baseline-bandit-019",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0153-baseline-bandit-001-oracle",
+      "block_id": "baseline-bandit-001",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0154-baseline-bandit-011-oracle",
+      "block_id": "baseline-bandit-011",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0155-baseline-bandit-005-random",
+      "block_id": "baseline-bandit-005",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0156-baseline-bandit-077-greedy",
+      "block_id": "baseline-bandit-077",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0157-baseline-bandit-024-greedy",
+      "block_id": "baseline-bandit-024",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0158-baseline-bandit-076-ucb1",
+      "block_id": "baseline-bandit-076",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0159-baseline-bandit-098-oracle",
+      "block_id": "baseline-bandit-098",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0160-baseline-bandit-033-greedy",
+      "block_id": "baseline-bandit-033",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0161-baseline-bandit-090-oracle",
+      "block_id": "baseline-bandit-090",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0162-baseline-bandit-092-random",
+      "block_id": "baseline-bandit-092",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0163-baseline-pd-3",
+      "block_id": "baseline-pd-3",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "script:win_stay_lose_shift",
+        "script:switch"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0164-baseline-bandit-024-ucb1",
+      "block_id": "baseline-bandit-024",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0165-baseline-bandit-034-random",
+      "block_id": "baseline-bandit-034",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0166-baseline-bandit-082-oracle",
+      "block_id": "baseline-bandit-082",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0167-baseline-bandit-034-ucb1",
+      "block_id": "baseline-bandit-034",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0168-baseline-bandit-065-ucb1",
+      "block_id": "baseline-bandit-065",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0169-baseline-bandit-074-random",
+      "block_id": "baseline-bandit-074",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0170-baseline-bandit-023-random",
+      "block_id": "baseline-bandit-023",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0171-baseline-bandit-016-greedy",
+      "block_id": "baseline-bandit-016",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0172-baseline-bandit-069-ucb1",
+      "block_id": "baseline-bandit-069",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0173-baseline-bandit-067-ucb1",
+      "block_id": "baseline-bandit-067",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0174-baseline-bandit-089-random",
+      "block_id": "baseline-bandit-089",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0175-baseline-bandit-004-random",
+      "block_id": "baseline-bandit-004",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0176-baseline-bandit-005-ucb1",
+      "block_id": "baseline-bandit-005",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0177-baseline-bandit-071-random",
+      "block_id": "baseline-bandit-071",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0178-baseline-bandit-000-random",
+      "block_id": "baseline-bandit-000",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0179-baseline-bandit-092-oracle",
+      "block_id": "baseline-bandit-092",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0180-baseline-bandit-033-oracle",
+      "block_id": "baseline-bandit-033",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0181-baseline-bandit-056-oracle",
+      "block_id": "baseline-bandit-056",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0182-baseline-bandit-070-greedy",
+      "block_id": "baseline-bandit-070",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0183-baseline-bandit-003-random",
+      "block_id": "baseline-bandit-003",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0184-baseline-bandit-068-oracle",
+      "block_id": "baseline-bandit-068",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0185-baseline-bandit-015-ucb1",
+      "block_id": "baseline-bandit-015",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0186-baseline-bandit-066-oracle",
+      "block_id": "baseline-bandit-066",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0187-baseline-bandit-051-greedy",
+      "block_id": "baseline-bandit-051",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0188-baseline-bandit-081-greedy",
+      "block_id": "baseline-bandit-081",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0189-baseline-bandit-024-random",
+      "block_id": "baseline-bandit-024",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0190-baseline-bandit-056-ucb1",
+      "block_id": "baseline-bandit-056",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0191-baseline-bandit-078-oracle",
+      "block_id": "baseline-bandit-078",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0192-baseline-bandit-038-greedy",
+      "block_id": "baseline-bandit-038",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0193-baseline-bandit-040-ucb1",
+      "block_id": "baseline-bandit-040",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0194-baseline-bandit-037-greedy",
+      "block_id": "baseline-bandit-037",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0195-baseline-bandit-013-random",
+      "block_id": "baseline-bandit-013",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0196-baseline-bandit-079-greedy",
+      "block_id": "baseline-bandit-079",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0197-baseline-bandit-044-greedy",
+      "block_id": "baseline-bandit-044",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0198-baseline-bandit-061-greedy",
+      "block_id": "baseline-bandit-061",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0199-baseline-bandit-074-oracle",
+      "block_id": "baseline-bandit-074",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0200-baseline-bandit-018-ucb1",
+      "block_id": "baseline-bandit-018",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0201-baseline-bandit-027-greedy",
+      "block_id": "baseline-bandit-027",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0202-baseline-bandit-023-oracle",
+      "block_id": "baseline-bandit-023",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0203-baseline-bandit-026-oracle",
+      "block_id": "baseline-bandit-026",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0204-baseline-bandit-086-greedy",
+      "block_id": "baseline-bandit-086",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0205-baseline-bandit-067-random",
+      "block_id": "baseline-bandit-067",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0206-baseline-bandit-083-ucb1",
+      "block_id": "baseline-bandit-083",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0207-baseline-bandit-088-ucb1",
+      "block_id": "baseline-bandit-088",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0208-baseline-bandit-064-random",
+      "block_id": "baseline-bandit-064",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0209-baseline-bandit-080-greedy",
+      "block_id": "baseline-bandit-080",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0210-baseline-bandit-045-greedy",
+      "block_id": "baseline-bandit-045",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0211-baseline-bandit-097-ucb1",
+      "block_id": "baseline-bandit-097",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0212-baseline-bandit-004-oracle",
+      "block_id": "baseline-bandit-004",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0213-baseline-bandit-080-oracle",
+      "block_id": "baseline-bandit-080",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0214-baseline-bandit-063-oracle",
+      "block_id": "baseline-bandit-063",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0215-baseline-bandit-015-random",
+      "block_id": "baseline-bandit-015",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0216-baseline-bandit-062-ucb1",
+      "block_id": "baseline-bandit-062",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0217-baseline-bandit-033-ucb1",
+      "block_id": "baseline-bandit-033",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0218-baseline-bandit-076-oracle",
+      "block_id": "baseline-bandit-076",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0219-baseline-bandit-075-ucb1",
+      "block_id": "baseline-bandit-075",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0220-baseline-bandit-048-greedy",
+      "block_id": "baseline-bandit-048",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0221-baseline-bandit-032-ucb1",
+      "block_id": "baseline-bandit-032",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0222-baseline-bandit-083-oracle",
+      "block_id": "baseline-bandit-083",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0223-baseline-bandit-031-random",
+      "block_id": "baseline-bandit-031",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0224-baseline-bandit-062-greedy",
+      "block_id": "baseline-bandit-062",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0225-baseline-bandit-087-random",
+      "block_id": "baseline-bandit-087",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0226-baseline-bandit-098-greedy",
+      "block_id": "baseline-bandit-098",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0227-baseline-bandit-040-oracle",
+      "block_id": "baseline-bandit-040",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0228-baseline-bandit-069-greedy",
+      "block_id": "baseline-bandit-069",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0229-baseline-bandit-047-greedy",
+      "block_id": "baseline-bandit-047",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0230-baseline-bandit-031-oracle",
+      "block_id": "baseline-bandit-031",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0231-baseline-bandit-043-random",
+      "block_id": "baseline-bandit-043",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0232-baseline-bandit-097-greedy",
+      "block_id": "baseline-bandit-097",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0233-baseline-bandit-038-random",
+      "block_id": "baseline-bandit-038",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0234-baseline-bandit-066-ucb1",
+      "block_id": "baseline-bandit-066",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0235-baseline-bandit-065-oracle",
+      "block_id": "baseline-bandit-065",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0236-baseline-bandit-059-greedy",
+      "block_id": "baseline-bandit-059",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0237-baseline-bandit-067-oracle",
+      "block_id": "baseline-bandit-067",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0238-baseline-bandit-058-ucb1",
+      "block_id": "baseline-bandit-058",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0239-baseline-bandit-095-ucb1",
+      "block_id": "baseline-bandit-095",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0240-baseline-bandit-053-random",
+      "block_id": "baseline-bandit-053",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0241-baseline-bandit-077-oracle",
+      "block_id": "baseline-bandit-077",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0242-baseline-bandit-064-oracle",
+      "block_id": "baseline-bandit-064",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0243-baseline-bandit-095-random",
+      "block_id": "baseline-bandit-095",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0244-baseline-bandit-091-greedy",
+      "block_id": "baseline-bandit-091",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0245-baseline-bandit-062-random",
+      "block_id": "baseline-bandit-062",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0246-baseline-bandit-089-greedy",
+      "block_id": "baseline-bandit-089",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0247-baseline-bandit-018-oracle",
+      "block_id": "baseline-bandit-018",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0248-baseline-bandit-099-greedy",
+      "block_id": "baseline-bandit-099",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0249-baseline-bandit-055-greedy",
+      "block_id": "baseline-bandit-055",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0250-baseline-bandit-032-oracle",
+      "block_id": "baseline-bandit-032",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0251-baseline-bandit-043-oracle",
+      "block_id": "baseline-bandit-043",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0252-baseline-bandit-055-ucb1",
+      "block_id": "baseline-bandit-055",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0253-baseline-bandit-066-greedy",
+      "block_id": "baseline-bandit-066",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0254-baseline-bandit-011-random",
+      "block_id": "baseline-bandit-011",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0255-baseline-bandit-036-oracle",
+      "block_id": "baseline-bandit-036",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0256-baseline-bandit-014-ucb1",
+      "block_id": "baseline-bandit-014",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0257-baseline-bandit-073-oracle",
+      "block_id": "baseline-bandit-073",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0258-baseline-bandit-086-ucb1",
+      "block_id": "baseline-bandit-086",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0259-baseline-bandit-030-ucb1",
+      "block_id": "baseline-bandit-030",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0260-baseline-bandit-088-greedy",
+      "block_id": "baseline-bandit-088",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0261-baseline-bandit-069-random",
+      "block_id": "baseline-bandit-069",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0262-baseline-bandit-071-greedy",
+      "block_id": "baseline-bandit-071",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0263-baseline-bandit-026-ucb1",
+      "block_id": "baseline-bandit-026",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0264-baseline-bandit-075-random",
+      "block_id": "baseline-bandit-075",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0265-baseline-bandit-018-random",
+      "block_id": "baseline-bandit-018",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0266-baseline-bandit-000-oracle",
+      "block_id": "baseline-bandit-000",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0267-baseline-bandit-073-random",
+      "block_id": "baseline-bandit-073",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0268-baseline-bandit-025-oracle",
+      "block_id": "baseline-bandit-025",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0269-baseline-bandit-075-oracle",
+      "block_id": "baseline-bandit-075",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0270-baseline-bandit-077-random",
+      "block_id": "baseline-bandit-077",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0271-baseline-bandit-012-random",
+      "block_id": "baseline-bandit-012",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0272-baseline-bandit-058-random",
+      "block_id": "baseline-bandit-058",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0273-baseline-bandit-071-oracle",
+      "block_id": "baseline-bandit-071",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0274-baseline-bandit-028-oracle",
+      "block_id": "baseline-bandit-028",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0275-baseline-bandit-007-oracle",
+      "block_id": "baseline-bandit-007",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0276-baseline-bandit-094-random",
+      "block_id": "baseline-bandit-094",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0277-baseline-bandit-024-oracle",
+      "block_id": "baseline-bandit-024",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0278-baseline-bandit-025-ucb1",
+      "block_id": "baseline-bandit-025",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0279-baseline-bandit-090-random",
+      "block_id": "baseline-bandit-090",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0280-baseline-bandit-084-oracle",
+      "block_id": "baseline-bandit-084",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0281-baseline-bandit-066-random",
+      "block_id": "baseline-bandit-066",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0282-baseline-bandit-052-oracle",
+      "block_id": "baseline-bandit-052",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0283-baseline-bandit-003-ucb1",
+      "block_id": "baseline-bandit-003",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0284-baseline-bandit-082-random",
+      "block_id": "baseline-bandit-082",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0285-baseline-bandit-007-ucb1",
+      "block_id": "baseline-bandit-007",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0286-baseline-bandit-052-ucb1",
+      "block_id": "baseline-bandit-052",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0287-baseline-bandit-020-random",
+      "block_id": "baseline-bandit-020",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0288-baseline-bandit-028-random",
+      "block_id": "baseline-bandit-028",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0289-baseline-bandit-029-random",
+      "block_id": "baseline-bandit-029",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0290-baseline-bandit-008-greedy",
+      "block_id": "baseline-bandit-008",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0291-baseline-bandit-051-ucb1",
+      "block_id": "baseline-bandit-051",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0292-baseline-bandit-096-greedy",
+      "block_id": "baseline-bandit-096",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0293-baseline-bandit-042-greedy",
+      "block_id": "baseline-bandit-042",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0294-baseline-bandit-053-oracle",
+      "block_id": "baseline-bandit-053",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0295-baseline-bandit-071-ucb1",
+      "block_id": "baseline-bandit-071",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0296-baseline-bandit-055-oracle",
+      "block_id": "baseline-bandit-055",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0297-baseline-bandit-080-random",
+      "block_id": "baseline-bandit-080",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0298-baseline-bandit-065-random",
+      "block_id": "baseline-bandit-065",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0299-baseline-bandit-052-greedy",
+      "block_id": "baseline-bandit-052",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0300-baseline-bandit-036-greedy",
+      "block_id": "baseline-bandit-036",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0301-baseline-bandit-010-oracle",
+      "block_id": "baseline-bandit-010",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0302-baseline-bandit-085-greedy",
+      "block_id": "baseline-bandit-085",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0303-baseline-bandit-063-greedy",
+      "block_id": "baseline-bandit-063",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0304-baseline-bandit-036-random",
+      "block_id": "baseline-bandit-036",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0305-baseline-bandit-070-oracle",
+      "block_id": "baseline-bandit-070",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0306-baseline-bandit-010-random",
+      "block_id": "baseline-bandit-010",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0307-baseline-bandit-052-random",
+      "block_id": "baseline-bandit-052",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0308-baseline-bandit-037-oracle",
+      "block_id": "baseline-bandit-037",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0309-baseline-bandit-031-ucb1",
+      "block_id": "baseline-bandit-031",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0310-baseline-bandit-032-greedy",
+      "block_id": "baseline-bandit-032",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0311-baseline-bandit-037-ucb1",
+      "block_id": "baseline-bandit-037",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0312-baseline-bandit-012-greedy",
+      "block_id": "baseline-bandit-012",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0313-baseline-bandit-004-greedy",
+      "block_id": "baseline-bandit-004",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0314-baseline-bandit-009-ucb1",
+      "block_id": "baseline-bandit-009",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0315-baseline-bandit-028-greedy",
+      "block_id": "baseline-bandit-028",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0316-baseline-bandit-077-ucb1",
+      "block_id": "baseline-bandit-077",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0317-baseline-bandit-021-oracle",
+      "block_id": "baseline-bandit-021",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0318-baseline-bandit-009-oracle",
+      "block_id": "baseline-bandit-009",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0319-baseline-bandit-020-greedy",
+      "block_id": "baseline-bandit-020",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0320-baseline-bandit-061-random",
+      "block_id": "baseline-bandit-061",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0321-baseline-bandit-044-random",
+      "block_id": "baseline-bandit-044",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0322-baseline-bandit-010-ucb1",
+      "block_id": "baseline-bandit-010",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0323-baseline-bandit-049-greedy",
+      "block_id": "baseline-bandit-049",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0324-baseline-pd-0",
+      "block_id": "baseline-pd-0",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "script:cooperate",
+        "script:switch"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0325-baseline-bandit-041-ucb1",
+      "block_id": "baseline-bandit-041",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0326-baseline-bandit-098-random",
+      "block_id": "baseline-bandit-098",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0327-baseline-bandit-043-greedy",
+      "block_id": "baseline-bandit-043",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0328-baseline-bandit-022-random",
+      "block_id": "baseline-bandit-022",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0329-baseline-bandit-063-random",
+      "block_id": "baseline-bandit-063",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0330-baseline-bandit-053-ucb1",
+      "block_id": "baseline-bandit-053",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0331-baseline-bandit-037-random",
+      "block_id": "baseline-bandit-037",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0332-baseline-bandit-058-oracle",
+      "block_id": "baseline-bandit-058",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0333-baseline-bandit-027-oracle",
+      "block_id": "baseline-bandit-027",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0334-baseline-bandit-054-greedy",
+      "block_id": "baseline-bandit-054",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0335-baseline-bandit-044-oracle",
+      "block_id": "baseline-bandit-044",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0336-baseline-bandit-031-greedy",
+      "block_id": "baseline-bandit-031",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0337-baseline-bandit-047-ucb1",
+      "block_id": "baseline-bandit-047",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0338-baseline-bandit-088-random",
+      "block_id": "baseline-bandit-088",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0339-baseline-bandit-002-oracle",
+      "block_id": "baseline-bandit-002",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0340-baseline-bandit-078-random",
+      "block_id": "baseline-bandit-078",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0341-baseline-bandit-049-ucb1",
+      "block_id": "baseline-bandit-049",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0342-baseline-bandit-008-random",
+      "block_id": "baseline-bandit-008",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0343-baseline-bandit-042-random",
+      "block_id": "baseline-bandit-042",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0344-baseline-bandit-034-greedy",
+      "block_id": "baseline-bandit-034",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0345-baseline-bandit-041-random",
+      "block_id": "baseline-bandit-041",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0346-baseline-bandit-076-greedy",
+      "block_id": "baseline-bandit-076",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0347-baseline-bandit-017-ucb1",
+      "block_id": "baseline-bandit-017",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0348-baseline-bandit-015-oracle",
+      "block_id": "baseline-bandit-015",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0349-baseline-bandit-008-ucb1",
+      "block_id": "baseline-bandit-008",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0350-baseline-bandit-035-ucb1",
+      "block_id": "baseline-bandit-035",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0351-baseline-bandit-019-ucb1",
+      "block_id": "baseline-bandit-019",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0352-baseline-bandit-088-oracle",
+      "block_id": "baseline-bandit-088",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0353-baseline-bandit-000-greedy",
+      "block_id": "baseline-bandit-000",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0354-baseline-bandit-072-greedy",
+      "block_id": "baseline-bandit-072",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0355-baseline-bandit-030-greedy",
+      "block_id": "baseline-bandit-030",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0356-baseline-bandit-091-oracle",
+      "block_id": "baseline-bandit-091",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0357-baseline-bandit-026-random",
+      "block_id": "baseline-bandit-026",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0358-baseline-bandit-006-random",
+      "block_id": "baseline-bandit-006",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0359-baseline-bandit-004-ucb1",
+      "block_id": "baseline-bandit-004",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0360-baseline-bandit-099-random",
+      "block_id": "baseline-bandit-099",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0361-baseline-bandit-040-greedy",
+      "block_id": "baseline-bandit-040",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0362-baseline-bandit-054-oracle",
+      "block_id": "baseline-bandit-054",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0363-baseline-bandit-049-random",
+      "block_id": "baseline-bandit-049",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0364-baseline-bandit-093-random",
+      "block_id": "baseline-bandit-093",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0365-baseline-bandit-062-oracle",
+      "block_id": "baseline-bandit-062",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0366-baseline-pd-2",
+      "block_id": "baseline-pd-2",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 30,
+      "players": [
+        "script:tit_for_tat",
+        "script:switch"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    },
+    {
+      "id": "0367-baseline-bandit-003-greedy",
+      "block_id": "baseline-bandit-003",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0368-baseline-bandit-003-oracle",
+      "block_id": "baseline-bandit-003",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0369-baseline-bandit-019-greedy",
+      "block_id": "baseline-bandit-019",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0370-baseline-bandit-030-random",
+      "block_id": "baseline-bandit-030",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0371-baseline-bandit-001-greedy",
+      "block_id": "baseline-bandit-001",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0372-baseline-bandit-019-random",
+      "block_id": "baseline-bandit-019",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0373-baseline-bandit-059-oracle",
+      "block_id": "baseline-bandit-059",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0374-baseline-bandit-079-oracle",
+      "block_id": "baseline-bandit-079",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0375-baseline-bandit-087-oracle",
+      "block_id": "baseline-bandit-087",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0376-baseline-bandit-084-greedy",
+      "block_id": "baseline-bandit-084",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0377-baseline-bandit-096-oracle",
+      "block_id": "baseline-bandit-096",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0378-baseline-bandit-042-oracle",
+      "block_id": "baseline-bandit-042",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0379-baseline-bandit-005-greedy",
+      "block_id": "baseline-bandit-005",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0380-baseline-bandit-011-ucb1",
+      "block_id": "baseline-bandit-011",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0381-baseline-bandit-099-ucb1",
+      "block_id": "baseline-bandit-099",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0382-baseline-bandit-093-oracle",
+      "block_id": "baseline-bandit-093",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0383-baseline-bandit-085-ucb1",
+      "block_id": "baseline-bandit-085",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0384-baseline-bandit-050-greedy",
+      "block_id": "baseline-bandit-050",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0385-baseline-bandit-092-greedy",
+      "block_id": "baseline-bandit-092",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0386-baseline-bandit-051-oracle",
+      "block_id": "baseline-bandit-051",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0387-baseline-bandit-053-greedy",
+      "block_id": "baseline-bandit-053",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0388-baseline-bandit-095-greedy",
+      "block_id": "baseline-bandit-095",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0389-baseline-bandit-047-random",
+      "block_id": "baseline-bandit-047",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0390-baseline-bandit-026-greedy",
+      "block_id": "baseline-bandit-026",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0391-baseline-bandit-020-oracle",
+      "block_id": "baseline-bandit-020",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0392-baseline-bandit-040-random",
+      "block_id": "baseline-bandit-040",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0393-baseline-bandit-008-oracle",
+      "block_id": "baseline-bandit-008",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0394-baseline-bandit-015-greedy",
+      "block_id": "baseline-bandit-015",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0395-baseline-bandit-076-random",
+      "block_id": "baseline-bandit-076",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:random",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0396-baseline-bandit-017-greedy",
+      "block_id": "baseline-bandit-017",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0397-baseline-bandit-070-ucb1",
+      "block_id": "baseline-bandit-070",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0398-baseline-bandit-029-greedy",
+      "block_id": "baseline-bandit-029",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:greedy",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0399-baseline-bandit-000-ucb1",
+      "block_id": "baseline-bandit-000",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0400-baseline-bandit-039-oracle",
+      "block_id": "baseline-bandit-039",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0401-baseline-bandit-060-ucb1",
+      "block_id": "baseline-bandit-060",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0402-baseline-bandit-049-oracle",
+      "block_id": "baseline-bandit-049",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0403-baseline-bandit-012-oracle",
+      "block_id": "baseline-bandit-012",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:oracle",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0404-baseline-bandit-064-ucb1",
+      "block_id": "baseline-bandit-064",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 60,
+      "players": [
+        "script:ucb1",
+        "script:random"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    }
+  ],
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 64
+  },
+  "max_calls": 53130,
+  "max_seconds": 21600,
+  "max_attempts": 3,
+  "timeout_seconds": 120
+}

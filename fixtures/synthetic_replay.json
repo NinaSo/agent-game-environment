@@ -1,0 +1,25 @@
+{
+  "provenance": {
+    "kind": "synthetic_scripted_fixture",
+    "description": "Hand-specified engineering example. Actions come from deterministic programmed strategies, not language models. This fixture is not part of any reported experiment.",
+    "expected_scoring": "Mutual cooperation gives 3 points each per round. Defection against cooperation gives 5 to the defector and 0 to the cooperator."
+  },
+  "config": {
+    "run_id": "synthetic_offline_fixture_v1",
+    "seed": 42,
+    "phase": "synthetic_fixture",
+    "episodes": [
+      {"id": "mutual", "block_id": "mutual", "task": "pd", "condition": "C2", "horizon": 3, "players": ["script:cooperate", "script:cooperate"], "seed": 42, "cooperate_label": "A"},
+      {"id": "defection", "block_id": "defection", "task": "pd", "condition": "C2", "horizon": 3, "players": ["script:defect", "script:cooperate"], "seed": 43, "cooperate_label": "B"}
+    ],
+    "max_calls": 12,
+    "max_seconds": 60,
+    "max_attempts": 1,
+    "timeout_seconds": 1
+  },
+  "expected": {
+    "verified_actions": 12,
+    "rounds": 6,
+    "final_scores": {"mutual": [9, 9], "defection": [15, 0]}
+  }
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Agent Decision Lab — Figures and Tables</title
+  ><style>
+    body {
+      max-width: 1000px;
+      margin: 45px auto;
+      padding: 0 24px;
+      color: #17323d;
+      background: #f5f5f0;
+      font: 16px/1.6 system-ui;
+    }
+    h1 {
+      font-size: 36px;
+      letter-spacing: -1px;
+    }
+    h2 {
+      margin-top: 45px;
+    }
+    img {
+      width: 100%;
+      background: white;
+      border: 1px solid #dce3de;
+      border-radius: 8px;
+    }
+    a {
+      color: #117d83;
+    }
+    p {
+      color: #61737a;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+    td,
+    th {
+      padding: 13px;
+      text-align: left;
+      border-bottom: 1px solid #dce3de;
+    }
+    small {
+      display: block;
+      color: #61737a;
+    }
+  </style>
+  <h1>Figures and tables</h1>
+  <h2>Payoff diagnostic: full, relevant-only, and extraction</h2>
+  <ul><li>480 fresh-context decisions; 80 per model and condition.</li><li>Relevant-only rewards improved Qwen from 46.25% to 77.5% correct.</li><li>Gemma reached 75% correct choices with payoff reporting, but both payoffs were correct in only 27.5% of responses.</li><li>Prompt-order effects remain; the figure separates all four order combinations.</li></ul>
+  <img src="diagnostic/accuracy.png" alt="Choice accuracy for all three diagnostic conditions, separately by prompt order and allowed-answer order">
+  <p><a href="diagnostic/accuracy.svg">SVG</a> · <a href="diagnostic/summary.csv">All factor summaries</a> · <a href="diagnostic/cases.csv">Every response</a> · <a href="../docs/payoff_diagnostic_findings.md">Findings and limitations</a></p>
+  <h2>Revised communication: before and after a broken promise</h2>
+  <ul><li>32 new games with explicit cooperate/defect actions.</li><li>Results shown separately by display order: Qwen’s cooperation fell less with promises when cooperate was listed first; with defect first, it fell only with promises.</li><li>Gemma always chose the second-listed action.</li></ul>
+  <img src="communication/before_after_by_order.png" alt="Cooperation before and after observed defection, separated by display order and model">
+  <p><a href="communication/before_after_by_order.svg">SVG</a> · <a href="communication/summary.csv">Rates and counts</a> · <a href="communication/contrasts.csv">Paired changes by display order</a> · <a href="communication/by_round.png">Each round (orders pooled)</a> · <a href="../docs/communication_findings.md">Interpretation and order breakdown</a></p>
+  <ul><li>Original pilot and payoff-check figures below; revised communication results above.</li><li>Each includes exact counts and downloadable data.</li><li>Descriptive results; no claim about internal strategy.</li></ul>
+<h2>Prisoner’s Dilemma</h2><img src="dashboard/pd_cooperation.png" alt="Cooperation by model and condition"><p><a href="dashboard/pd_cooperation.png">PNG</a> · <a href="dashboard/pd_cooperation.svg">SVG</a> · <a href="dashboard/pd_cooperation.csv">Chart data</a></p>
+<h2>Swapping A and B</h2><img src="dashboard/label_mapping.png" alt="Cooperation by cooperative letter, pooled across C1–C3"><p><a href="dashboard/label_mapping.png">PNG</a> · <a href="dashboard/label_mapping.svg">SVG</a> · <a href="dashboard/label_mapping.csv">Chart data</a></p>
+<h2>Bandit task</h2><img src="dashboard/bandit_wins.png" alt="Six wins per model out of twelve games"><p><a href="dashboard/bandit_wins.png">PNG</a> · <a href="dashboard/bandit_wins.svg">SVG</a> · <a href="dashboard/bandit_wins.csv">Chart data</a></p>
+<h2>Scripted messages</h2><img src="dashboard/scripted_messages.png" alt="Cooperation in rounds 11–30, by message type"><p><a href="dashboard/scripted_messages.png">PNG</a> · <a href="dashboard/scripted_messages.svg">SVG</a> · <a href="dashboard/scripted_messages.csv">Chart data</a></p>
+<h2>Follow-up studies</h2><img src="dashboard/followup_accuracy.png" alt="Correct choices in the simple reward and game payoff tasks"><p><a href="dashboard/followup_accuracy.png">PNG</a> · <a href="dashboard/followup_accuracy.svg">SVG</a> · <a href="dashboard/followup_accuracy.csv">Chart data</a></p>
+<details><summary>Detailed original figures and traces</summary><ul>
+<li><a href="pd_cooperation.png">Cooperation in each game</a> · <a href="pd_cooperation.csv">Data</a></li>
+<li><a href="pd_label_sensitivity.png">Label check by condition</a> · <a href="label_diagnostics.csv">Data</a></li>
+<li><a href="bandit_scores.png">Bandit scores by round</a> · <a href="bandit_scores.csv">Data</a></li>
+<li><a href="scripted_messages.png">Messages: cooperation by round</a> · <a href="scripted_messages.csv">Data</a></li>
+<li><a href="followups/cases.csv">Follow-up responses</a> · <a href="followups/evidence.json">Prompts and replies</a></li>
+<li><a href="pipeline.svg">Pipeline diagram</a> · <a href="../docs/code_map.md">Code map</a></li>
+</ul></details>
+  <h2>Review tables</h2>
+  <table>
+    <tr>
+      <th>Table</th>
+      <th>What it answers</th>
+    </tr>
+    <tr>
+      <td><a href="../docs/experiment_matrix.csv">Experiment matrix</a></td>
+      <td>
+        What was planned, how many episodes, and which information was shown?
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="../docs/requirements_evidence.csv"
+          >Requirements and evidence</a
+        >
+      </td>
+      <td>What is verified, and which parts remain unimplemented?</td>
+    </tr>
+    <tr>
+      <td><a href="episode_summary.csv">Episode outcomes</a></td>
+      <td>
+        What happened in each episode, with completion and missing-outcome
+        bounds?
+      </td>
+    </tr>
+    <tr>
+      <td><a href="behavioral_metrics.csv">Behavioral metrics</a></td>
+      <td>What are the numerator, eligible denominator, and exclusions?</td>
+    </tr>
+    <tr>
+      <td><a href="validity.csv">Validity by condition</a></td>
+      <td>
+        How many decisions were accepted, invalid, or affected by transport
+        errors?
+      </td>
+    </tr>
+    <tr>
+      <td><a href="condition_contrasts.csv">Matched contrasts</a></td>
+      <td>How did behavior differ between paired conditions?</td>
+    </tr>
+    <tr>
+      <td><a href="decision_features.csv">Permitted inputs</a></td>
+      <td>What was available before each decision?</td>
+    </tr>
+    <tr>
+      <td><a href="decision_targets.csv">Separate targets</a></td>
+      <td>What action and reward followed each observation?</td>
+    </tr>
+  </table>
+  <p>
+    <a href="../dashboard/index.html">Open the dashboard</a> ·
+    <a href="../README.md">Reproduction guide</a>
+  </p>
+</html>

@@ -1,0 +1,7 @@
+experiment,condition,independent_units,rounds_per_player,model_decisions,scripted_decisions,objective,information
+Prisoners Dilemma,C1,12 dyads,30,720,0,Own total points,Own past choices only
+Prisoners Dilemma,C2,12 dyads,30,720,0,Own total points,Own choices and opponent per-round rewards
+Prisoners Dilemma,C3,12 dyads,30,720,0,Own total points,C2 plus moral framing
+Competitive bandit,competitive,12 dyads,60,1440,0,Chance of strictly finishing ahead,Own choices rewards and both cumulative score histories
+Scripted communication,neutral,8 episodes in 8 matched pairs,30,240,240,Own total points,C2 plus neutral messages
+Scripted communication,promise,8 episodes in 8 matched pairs,30,240,240,Own total points,C2 plus scripted cooperation promises

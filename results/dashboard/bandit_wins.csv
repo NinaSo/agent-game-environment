@@ -1,0 +1,3 @@
+model,group,numerator,denominator,fraction
+gemma3:4b,wins,6,12,0.5
+qwen3:4b,wins,6,12,0.5

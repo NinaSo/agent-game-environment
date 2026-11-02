@@ -1,0 +1,672 @@
+{
+  "run_id": "semantic_messages_main_20261029_v1",
+  "seed": 20261029,
+  "phase": "paired_semantic_messages",
+  "episodes": [
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat2-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat2",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 9195105973311959112,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat2-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat2",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 9195105973311959112,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat3-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat3",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 7847913970024160217,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat0-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat0",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 6597629717073710228,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat2-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat2",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 10127558473313630376,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat0-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 3657063251762710402,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat3-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat3",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 9585135986627558813,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat1-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat1",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 14478152899325356561,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat2-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat2",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 10127558473313630376,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat0-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat0",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 5525733716527115694,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat0-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 10820668411794411578,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat3-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat3",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 7847913970024160217,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat3-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat3",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 8323145498724947673,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat2-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat2",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 1625223633285729503,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat1-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat1",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 570965641823049459,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat1-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat1",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 14478152899325356561,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat3-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat3",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 9585135986627558813,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat0-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 3657063251762710402,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat1-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat1",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 13176240151864864757,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat1-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat1",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 88495593450162642,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat0-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat0",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 6597629717073710228,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat1-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat1",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 570965641823049459,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat1-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat1",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 88495593450162642,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat3-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat3",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 8323145498724947673,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat1-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat1",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 13176240151864864757,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 1
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order0-repeat0-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 10820668411794411578,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat2-semantic_promise",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat2",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 11657278657591874114,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat2-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat2",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 1625223633285729503,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat3-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat3",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 1211967385970883262,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 3
+    },
+    {
+      "id": "semantic-main-gemma3-4b-order1-repeat2-semantic_neutral",
+      "block_id": "semantic-main-gemma3-4b-order1-repeat2",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 11657278657591874114,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 2
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order1-repeat0-semantic_promise",
+      "block_id": "semantic-main-qwen3-4b-order1-repeat0",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 5525733716527115694,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "defect",
+        "cooperate"
+      ],
+      "switch_after": 10,
+      "presentation_order": 1,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-main-qwen3-4b-order0-repeat3-semantic_neutral",
+      "block_id": "semantic-main-qwen3-4b-order0-repeat3",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 30,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 1211967385970883262,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 10,
+      "presentation_order": 0,
+      "sampling_repeat": 3
+    }
+  ],
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 64
+  },
+  "max_calls": 2304,
+  "max_seconds": 7200,
+  "timeout_seconds": 120,
+  "max_attempts": 3,
+  "analysis_windows": {
+    "pre": [
+      1,
+      10
+    ],
+    "transition": [
+      11,
+      11
+    ],
+    "post": [
+      12,
+      30
+    ]
+  },
+  "presentation_control": "Jointly reverse legal enum and own-action payoff row groups; opponent row order stays cooperate then defect."
+}

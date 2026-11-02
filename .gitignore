@@ -1,0 +1,39 @@
+.runtime/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.sqlite-wal
+*.sqlite-shm
+*.lock
+
+# Local credentials and execution artifacts
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite-journal
+*.db
+*.zip
+*.tar
+*.tar.gz
+.venv/
+venv/
+models/
+experiments/
+dist/
+build/
+*.egg-info/
+.mplconfig/
+.DS_Store
+
+# Large raw evidence is released separately, not committed with source.
+results/*_trace.json
+results/*/trace.json
+results/*/evidence.json
+results/decision_features.csv
+results/trajectories.csv
+results/dashboard_data.json
+results/bootstrap_indices.json
+# Source snapshots required by regression tests remain tracked.

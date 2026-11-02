@@ -1,0 +1,20 @@
+requirement,status,evidence,limitation
+PD mechanics and terminal state,verified,tests/test_core.py; tests/test_correctness_review.py,Finite disclosed horizon only
+C1 C2 C3 observation isolation,verified,tests/test_integrity_review.py,Logical inference from C2 rewards is intentionally possible
+Bandit hidden means and independent draws,verified,tests/test_correctness_review.py; docs/context_budget_check.json,One reward gap regime in pilot
+Appropriate memory and episode reset,verified,engine.observation; counterfactual memory tests,Complete supplied history is task scaffolding
+No model tools or remote inference,verified,provider.Ollama loopback transport; integrity tests,Not an OS sandbox for arbitrary software
+Durable attempts and atomic outcome commits,verified,tests/test_core.py; tests/test_correctness_review.py,Interrupted provider computation may be ambiguous
+Crash resume and no duplicate scoring,verified,review regression tests,Code config runtime model changes correctly block resume
+Exact recorded-action replay,verified,runner.replay; smoke and baseline validation,Does not guarantee identical fresh inference
+Bounded calls context timeout retries,verified,config validation and context guard tests,Execution may be incomplete at a cap
+Two independent communicating reviewers,verified,docs/review_integrity.md; docs/review_correctness.md,Final data audit recorded after collection
+Real local Qwen and Gemma collection,verified,64 complete pilot episodes; 4080 valid model decisions; replay passed,Exploratory pilot with two local model configurations
+Descriptive metrics and paired uncertainty,implemented,analyze.py; tests/test_analysis_review.py,Small-sample bootstrap coverage not validated
+Safe dashboard and readonly progress,verified,dashboard/app.js; tests/test_dashboard_integrity.py,Live mode requires local server
+Standalone figures and numeric tables,implemented,results PNG SVG CSV files,Rebuilt from complete eligible episodes
+Predecision features separated from targets,verified,decision_features.csv; decision_targets.csv,No fitted predictor results in this pilot
+Synthetic model and parameter recovery,not_implemented,Section 10 plan and analysis_gates.json,No strategy family or parameter claims
+Controlled history probes,not_implemented,Section 10 plan and probe_manifest status,No matched-history causal estimates
+Heldout policy fitting and reproduction,not_implemented,Section 10 plan and policy_fits status,Requires recovery and independent groups
+Main study and precision planning,not_run,Section 6 and analysis_gates.json,Pilot is not confirmatory

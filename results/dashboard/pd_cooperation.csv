@@ -1,0 +1,7 @@
+model,group,numerator,denominator,fraction
+gemma3:4b,C1,0,360,0.0
+qwen3:4b,C1,180,360,0.5
+gemma3:4b,C2,0,360,0.0
+qwen3:4b,C2,180,360,0.5
+gemma3:4b,C3,24,360,0.06666666666666667
+qwen3:4b,C3,181,360,0.5027777777777778

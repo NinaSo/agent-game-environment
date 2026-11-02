@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "method": "Parse disclosed point values directly from every stored prompt; independently choose numerical maximum; compare raw replies and recorded scores. Check frozen source/model identities and unchanged original CSV hashes.",
+  "verified_responses": 400,
+  "case_status": {
+    "complete": 400
+  },
+  "attempt_status": {
+    "valid": 400
+  },
+  "summaries": [
+    {
+      "study": "fixed_opponent_pd",
+      "model": "gemma3:4b",
+      "responses": 80,
+      "correct": 40,
+      "literal_B": 20,
+      "ab_answers": 80,
+      "latency_seconds": 33.22102758397523,
+      "prompt_tokens": 12000,
+      "output_tokens": 560
+    },
+    {
+      "study": "fixed_opponent_pd",
+      "model": "qwen3:4b",
+      "responses": 80,
+      "correct": 41,
+      "literal_B": 73,
+      "ab_answers": 80,
+      "latency_seconds": 33.26122483100335,
+      "prompt_tokens": 11440,
+      "output_tokens": 790
+    },
+    {
+      "study": "known_reward",
+      "model": "gemma3:4b",
+      "responses": 120,
+      "correct": 120,
+      "literal_B": 20,
+      "ab_answers": 40,
+      "latency_seconds": 40.52935312905174,
+      "prompt_tokens": 8280,
+      "output_tokens": 840
+    },
+    {
+      "study": "known_reward",
+      "model": "qwen3:4b",
+      "responses": 120,
+      "correct": 112,
+      "literal_B": 28,
+      "ab_answers": 40,
+      "latency_seconds": 50.490614661961445,
+      "prompt_tokens": 7920,
+      "output_tokens": 1214
+    }
+  ],
+  "original_tables_unchanged": 15
+}

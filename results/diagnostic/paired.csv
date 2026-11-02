@@ -1,0 +1,5 @@
+model,reference,comparison,planned_pairs,both_accepted,improved,worsened,both_correct,neither_correct,accuracy_difference_planned
+gemma3:4b,full_direct,relevant_direct,80,80,20,11,31,18,0.1125
+gemma3:4b,full_direct,full_extract_choose,80,80,28,10,32,10,0.225
+qwen3:4b,full_direct,relevant_direct,80,80,25,0,37,18,0.3125
+qwen3:4b,full_direct,full_extract_choose,80,80,8,7,30,35,0.0125

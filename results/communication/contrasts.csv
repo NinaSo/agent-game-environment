@@ -1,0 +1,7 @@
+model,order,planned_pairs,included_pairs,pre_gap_pp,post_gap_pp,change_pp
+gemma3:4b,all,8,8,0.0,0.0,0.0
+gemma3:4b,cooperate / defect,4,4,0.0,0.0,0.0
+gemma3:4b,defect / cooperate,4,4,0.0,0.0,0.0
+qwen3:4b,all,8,8,1.2499999999999998,9.868421052631579,8.618421052631579
+qwen3:4b,cooperate / defect,4,4,2.4999999999999996,25.0,22.5
+qwen3:4b,defect / cooperate,4,4,0.0,-5.263157894736844,-5.263157894736844

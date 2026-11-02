@@ -1,0 +1,47 @@
+{
+  "run_id": "smoke_20261027_v1",
+  "seed": 20261027,
+  "episodes": [
+    {
+      "id": "0000-smoke-bandit",
+      "block_id": "smoke-bandit",
+      "task": "bandit",
+      "condition": "competitive",
+      "horizon": 3,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A",
+      "means": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": "0001-smoke-pd",
+      "block_id": "smoke-pd",
+      "task": "pd",
+      "condition": "C2",
+      "horizon": 3,
+      "players": [
+        "qwen3:4b",
+        "gemma3:4b"
+      ],
+      "seed": 20261027,
+      "cooperate_label": "A"
+    }
+  ],
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 64
+  },
+  "max_calls": 32,
+  "max_seconds": 21600,
+  "max_attempts": 3,
+  "timeout_seconds": 120
+}

@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-10-29T15:00:15.100053+00:00",
+  "source_hashes": {
+    "diagnostic/__init__.py": "08dec2d01f44b2c78b71acb52b3a4db7d8ddfc35bc473af46ed1cf1857b4764f",
+    "diagnostic/design.py": "187428cbec1a804e54e1d1741e305b82022cb7aa6da801078f250e1824d533ed",
+    "diagnostic/collection.py": "6084e3668733ff358bff58ff823e639911d9e7d9a032fe12822a8441ba6f149e",
+    "game_lab/engine.py": "875143ec37c4139de2a8fe972edd44481cc2f56cb2435b608ca62593e6789e7c",
+    "game_lab/provider.py": "968e0d14f8ac3c69a5296d7822ea0ef6791a401cd467f1a4e9c00bdadb82b460",
+    "followups/studies.py": "590f7983fbeea70288f044671f7a61e70a881ac8e59562f420b740d575e73083"
+  },
+  "old_source_files_unchanged": 12,
+  "old_databases_unchanged": 8,
+  "independent_audit": [
+    {
+      "database": "smoke.sqlite",
+      "cases": 6,
+      "attempts": 6,
+      "max_prompt_tokens": 175,
+      "metrics": [
+        {
+          "model": "gemma3:4b",
+          "condition": "full_direct",
+          "n": 1,
+          "correct": 1,
+          "literal_B": 0
+        },
+        {
+          "model": "gemma3:4b",
+          "condition": "full_extract_choose",
+          "n": 1,
+          "correct": 0,
+          "literal_B": 0,
+          "extraction_exact": 0,
+          "exact_choice_correct": 0,
+          "wrong_extraction": 1
+        },
+        {
+          "model": "gemma3:4b",
+          "condition": "relevant_direct",
+          "n": 1,
+          "correct": 1,
+          "literal_B": 1
+        },
+        {
+          "model": "qwen3:4b",
+          "condition": "full_direct",
+          "n": 1,
+          "correct": 1,
+          "literal_B": 1
+        },
+        {
+          "model": "qwen3:4b",
+          "condition": "full_extract_choose",
+          "n": 1,
+          "correct": 1,
+          "literal_B": 1,
+          "extraction_exact": 1,
+          "exact_choice_correct": 1,
+          "wrong_extraction": 0
+        },
+        {
+          "model": "qwen3:4b",
+          "condition": "relevant_direct",
+          "n": 1,
+          "correct": 1,
+          "literal_B": 1
+        }
+      ]
+    },
+    {
+      "database": "main.sqlite",
+      "cases": 480,
+      "attempts": 480,
+      "max_prompt_tokens": 175,
+      "metrics": [
+        {
+          "model": "gemma3:4b",
+          "condition": "full_direct",
+          "n": 80,
+          "correct": 42,
+          "literal_B": 22
+        },
+        {
+          "model": "gemma3:4b",
+          "condition": "full_extract_choose",
+          "n": 80,
+          "correct": 60,
+          "literal_B": 40,
+          "extraction_exact": 22,
+          "exact_choice_correct": 22,
+          "wrong_extraction": 58
+        },
+        {
+          "model": "gemma3:4b",
+          "condition": "relevant_direct",
+          "n": 80,
+          "correct": 51,
+          "literal_B": 51
+        },
+        {
+          "model": "qwen3:4b",
+          "condition": "full_direct",
+          "n": 80,
+          "correct": 37,
+          "literal_B": 75
+        },
+        {
+          "model": "qwen3:4b",
+          "condition": "full_extract_choose",
+          "n": 80,
+          "correct": 38,
+          "literal_B": 62,
+          "extraction_exact": 26,
+          "exact_choice_correct": 24,
+          "wrong_extraction": 54
+        },
+        {
+          "model": "qwen3:4b",
+          "condition": "relevant_direct",
+          "n": 80,
+          "correct": 62,
+          "literal_B": 58
+        }
+      ]
+    }
+  ]
+}

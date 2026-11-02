@@ -1,0 +1,41 @@
+{
+  "frozen_at": "2026-10-28T23:40:30.545424+02:00",
+  "planned_decisions": 400,
+  "unique_prompt_texts": 20,
+  "config_sha256": "5e07929a60bee7860fb47b659750f875aa00b61ce8b99964efc55cd184fe55c1",
+  "source_sha256": {
+    "followups/__init__.py": "99c20398544631bb2efd8db3a9cefe633e6fdbb13d872bfb97e99cc88f7fca77",
+    "followups/__main__.py": "8e496aec01265c6dd7f666d99c28b0f7bb416274ccc1c8806d286374e2b6df07",
+    "followups/studies.py": "590f7983fbeea70288f044671f7a61e70a881ac8e59562f420b740d575e73083",
+    "game_lab/engine.py": "3932965279f222e4bc61615fd43d585f66f1d1ed4c0d23a5aa50eec338c187c4",
+    "game_lab/provider.py": "968e0d14f8ac3c69a5296d7822ea0ef6791a401cd467f1a4e9c00bdadb82b460"
+  },
+  "tests": {
+    "passed": 93,
+    "subtests": 14
+  },
+  "provider_identity_checked_against_original_pilot": true,
+  "ollama_version": "0.40.11",
+  "model_digests": {
+    "qwen3:4b": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "gemma3:4b": "68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7"
+  },
+  "collection_scope": "known-reward and fixed-opponent single-round payoff diagnostics only",
+  "original_tables_sha256": {
+    "aggregate_metrics.csv": "2e16354230c7b7f38964d30f25c344ee6cf74ffe736ea1266b7b9b5867c9a232",
+    "bandit_scores.csv": "88ab484946da857e00990bbb038e23ac41bef6004bf9c1f89f87480f1f1ba015",
+    "behavioral_metrics.csv": "31a8ddc707bf202087f8fb6c83aa5c60f5ff0a88e7b30d5d220e96001f4e794c",
+    "condition_contrasts.csv": "326bc83e42ba09a28a73499ffafa91ede75ada12cb4025c4aec34aab25f45388",
+    "decision_features.csv": "25ac410beb52f6f3cd1bd1c94098fffcb7ec9ce25f601dd8bccdd2571bea3925",
+    "decision_targets.csv": "1f56a1822c6d37399a242b5204d5beb9c95e504211b3a4875db519d3f860fe68",
+    "episode_summary.csv": "31419ac1a0ab912a4ed6e254ef838d88c2b043e68fdfee1b98d3056e865dc584",
+    "label_diagnostics.csv": "f7c2c132fdbff66a5184d35f601b13b937a5666797e9af1753205637f9fe0699",
+    "parameter_recovery.csv": "f65d74e8cda37cd82c1cc5ae48dff503108e0c2a196e5dc4ffaa7ca2562e697f",
+    "pd_cooperation.csv": "07ea96ed5f4d023561b8f39e55b2495f674ff0f4789d5738e3d42e006c0337c9",
+    "policy_fits.csv": "761f4d5e0816d0d60fcce29b5fbd203c013e9aef0c66981297f2973303444076",
+    "recovery_confusion.csv": "f65d74e8cda37cd82c1cc5ae48dff503108e0c2a196e5dc4ffaa7ca2562e697f",
+    "scripted_messages.csv": "0a9e3ed8640b17877149ed65a3ccf6fbd8eb44d5a60aa6edf06fb3013841bda7",
+    "trajectories.csv": "3faa367c5bbbf40ba11297cd1b1f9ca5aed782e485d26d759333afc268e89285",
+    "validity.csv": "b90060aa7e83e18e24a2bf1b363c6c2afe3a2d9ad1c2a6d3fd183d3af59cc3ed"
+  }
+}

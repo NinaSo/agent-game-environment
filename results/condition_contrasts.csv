@@ -1,0 +1,9 @@
+model,contrast,metric,paired_blocks,changed_pairs,effect,ci_low,ci_high,degenerate_bootstrap,bootstrap_replicates,primary,family_size,nominal_coverage,inference_status
+gemma3:4b,C2 minus C1,cooperation_rate,12,0,0.0,0.0,0.0,True,2000,True,6,0.9916666666666667,pilot_descriptive_coverage_not_validated
+gemma3:4b,C3 minus C2,cooperation_rate,12,1,0.06666666666666667,0.0,0.26666666666666666,False,2000,True,6,0.9916666666666667,pilot_descriptive_coverage_not_validated
+gemma3:4b,promise minus neutral,post_switch_cooperation,4,0,0.0,0.0,0.0,True,2000,True,6,0.9916666666666667,pilot_descriptive_coverage_not_validated
+gemma3:4b,promise minus neutral,post_switch_mean_reward,4,0,0.0,0.0,0.0,True,2000,False,1,0.95,pilot_descriptive_coverage_not_validated
+qwen3:4b,C2 minus C1,cooperation_rate,12,0,0.0,0.0,0.0,True,2000,True,6,0.9916666666666667,pilot_descriptive_coverage_not_validated
+qwen3:4b,C3 minus C2,cooperation_rate,12,1,0.002777777777777778,0.0,0.011111111111111112,False,2000,True,6,0.9916666666666667,pilot_descriptive_coverage_not_validated
+qwen3:4b,promise minus neutral,post_switch_cooperation,4,2,-0.07500000000000001,-0.17500000000000004,0.0,False,2000,True,6,0.9916666666666667,pilot_descriptive_coverage_not_validated
+qwen3:4b,promise minus neutral,post_switch_mean_reward,4,2,0.07500000000000001,0.0,0.15000000000000002,False,2000,False,1,0.95,pilot_descriptive_coverage_not_validated

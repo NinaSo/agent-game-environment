@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "checked_rounds": 960,
+  "method": "Independently recompute rewards from four payoff outcomes and counts from raw SQLite, without engine or report helpers.",
+  "second_listed_choices": {
+    "gemma3:4b": 480,
+    "qwen3:4b": 268
+  },
+  "window_counts": [
+    {
+      "model": "gemma3:4b",
+      "condition": "neutral",
+      "window": "after_evidence",
+      "cooperative": 76,
+      "choices": 152
+    },
+    {
+      "model": "gemma3:4b",
+      "condition": "neutral",
+      "window": "before",
+      "cooperative": 40,
+      "choices": 80
+    },
+    {
+      "model": "gemma3:4b",
+      "condition": "neutral",
+      "window": "first_defection",
+      "cooperative": 4,
+      "choices": 8
+    },
+    {
+      "model": "gemma3:4b",
+      "condition": "promise",
+      "window": "after_evidence",
+      "cooperative": 76,
+      "choices": 152
+    },
+    {
+      "model": "gemma3:4b",
+      "condition": "promise",
+      "window": "before",
+      "cooperative": 40,
+      "choices": 80
+    },
+    {
+      "model": "gemma3:4b",
+      "condition": "promise",
+      "window": "first_defection",
+      "cooperative": 4,
+      "choices": 8
+    },
+    {
+      "model": "qwen3:4b",
+      "condition": "neutral",
+      "window": "after_evidence",
+      "cooperative": 127,
+      "choices": 152
+    },
+    {
+      "model": "qwen3:4b",
+      "condition": "neutral",
+      "window": "before",
+      "cooperative": 79,
+      "choices": 80
+    },
+    {
+      "model": "qwen3:4b",
+      "condition": "neutral",
+      "window": "first_defection",
+      "cooperative": 8,
+      "choices": 8
+    },
+    {
+      "model": "qwen3:4b",
+      "condition": "promise",
+      "window": "after_evidence",
+      "cooperative": 142,
+      "choices": 152
+    },
+    {
+      "model": "qwen3:4b",
+      "condition": "promise",
+      "window": "before",
+      "cooperative": 80,
+      "choices": 80
+    },
+    {
+      "model": "qwen3:4b",
+      "condition": "promise",
+      "window": "first_defection",
+      "cooperative": 8,
+      "choices": 8
+    }
+  ]
+}

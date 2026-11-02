@@ -1,0 +1,5 @@
+model,group,numerator,denominator,fraction
+gemma3:4b,A,0,540,0.0
+qwen3:4b,A,1,540,0.001851851851851852
+gemma3:4b,B,24,540,0.044444444444444446
+qwen3:4b,B,540,540,1.0

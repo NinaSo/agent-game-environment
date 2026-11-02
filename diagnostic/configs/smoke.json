@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "run_id": "payoff_diagnostic_smoke",
+  "phase": "excluded_smoke",
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 128
+  },
+  "max_calls": 18,
+  "max_seconds": 600,
+  "max_attempts": 3,
+  "timeout_seconds": 120,
+  "cases": [
+    {
+      "model": "qwen3:4b",
+      "mapping": 0,
+      "opponent_choice": "A",
+      "prompt_order": 1,
+      "schema_order": 0,
+      "repeat": 1,
+      "condition": "full_direct",
+      "block_id": "8d7cce0c7df897405737cfe0",
+      "decoder_seed": 718937180,
+      "id": "6b51f81a3a7548ad118f48c8"
+    },
+    {
+      "model": "qwen3:4b",
+      "mapping": 0,
+      "opponent_choice": "A",
+      "prompt_order": 0,
+      "schema_order": 0,
+      "repeat": 3,
+      "condition": "relevant_direct",
+      "block_id": "73d598a0973b84112bd8edfe",
+      "decoder_seed": 1588713414,
+      "id": "1d5505d3bbb285adb4ce05a5"
+    },
+    {
+      "model": "qwen3:4b",
+      "mapping": 0,
+      "opponent_choice": "A",
+      "prompt_order": 1,
+      "schema_order": 1,
+      "repeat": 0,
+      "condition": "full_extract_choose",
+      "block_id": "9d1441b3f476ece07fe1458e",
+      "decoder_seed": 1841704306,
+      "id": "3b4610d8ae642cb695f48000"
+    },
+    {
+      "model": "gemma3:4b",
+      "mapping": 1,
+      "opponent_choice": "B",
+      "prompt_order": 1,
+      "schema_order": 0,
+      "repeat": 4,
+      "condition": "full_direct",
+      "block_id": "e776b4e70999bd0265581af4",
+      "decoder_seed": 834184210,
+      "id": "1b14619516aed46a1a5eed0d"
+    },
+    {
+      "model": "gemma3:4b",
+      "mapping": 0,
+      "opponent_choice": "B",
+      "prompt_order": 1,
+      "schema_order": 1,
+      "repeat": 2,
+      "condition": "relevant_direct",
+      "block_id": "75545980aa63e69ea0b63467",
+      "decoder_seed": 481787745,
+      "id": "382d2fc07585eef34d4a98f2"
+    },
+    {
+      "model": "gemma3:4b",
+      "mapping": 0,
+      "opponent_choice": "A",
+      "prompt_order": 1,
+      "schema_order": 0,
+      "repeat": 4,
+      "condition": "full_extract_choose",
+      "block_id": "1051626ee8042c106ff7440b",
+      "decoder_seed": 1643753686,
+      "id": "e017af265f68caefc5f8cc49"
+    }
+  ]
+}

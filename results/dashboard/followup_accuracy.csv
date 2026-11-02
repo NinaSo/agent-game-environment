@@ -1,0 +1,5 @@
+model,group,numerator,denominator,fraction
+gemma3:4b,fixed_opponent_pd,40,80,0.5
+qwen3:4b,fixed_opponent_pd,41,80,0.5125
+gemma3:4b,known_reward,120,120,1.0
+qwen3:4b,known_reward,112,120,0.9333333333333333

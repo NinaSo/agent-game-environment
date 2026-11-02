@@ -1,0 +1,112 @@
+{
+  "run_id": "semantic_messages_smoke_20261029_v1",
+  "seed": 20261029,
+  "phase": "excluded_smoke",
+  "episodes": [
+    {
+      "id": "semantic-smoke-gemma3-4b-order0-repeat0-semantic_neutral",
+      "block_id": "semantic-smoke-gemma3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 3,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 2334280788437048655,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 1,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-smoke-qwen3-4b-order0-repeat0-semantic_promise",
+      "block_id": "semantic-smoke-qwen3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 3,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 12464545706578970536,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 1,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-smoke-qwen3-4b-order0-repeat0-semantic_neutral",
+      "block_id": "semantic-smoke-qwen3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_neutral",
+      "horizon": 3,
+      "players": [
+        "qwen3:4b",
+        "script:switch"
+      ],
+      "seed": 12464545706578970536,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 1,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    },
+    {
+      "id": "semantic-smoke-gemma3-4b-order0-repeat0-semantic_promise",
+      "block_id": "semantic-smoke-gemma3-4b-order0-repeat0",
+      "task": "pd",
+      "condition": "semantic_promise",
+      "horizon": 3,
+      "players": [
+        "gemma3:4b",
+        "script:switch"
+      ],
+      "seed": 2334280788437048655,
+      "cooperate_label": "cooperate",
+      "action_order": [
+        "cooperate",
+        "defect"
+      ],
+      "switch_after": 1,
+      "presentation_order": 0,
+      "sampling_repeat": 0
+    }
+  ],
+  "inference": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 64
+  },
+  "max_calls": 36,
+  "max_seconds": 600,
+  "timeout_seconds": 120,
+  "max_attempts": 3,
+  "analysis_windows": {
+    "pre": [
+      1,
+      1
+    ],
+    "transition": [
+      2,
+      2
+    ],
+    "post": [
+      3,
+      3
+    ]
+  },
+  "presentation_control": "Jointly reverse legal enum and own-action payoff row groups; opponent row order stays cooperate then defect."
+}

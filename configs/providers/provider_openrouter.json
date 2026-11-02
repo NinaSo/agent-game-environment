@@ -1,0 +1,5 @@
+{
+  "kind": "openrouter",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "allow_paid": false
+}

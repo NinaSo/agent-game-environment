@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "status": "approved_before_collection",
+  "tests": "121 passed, 19 subtests passed",
+  "reviewers": [
+    "correctness",
+    "integrity"
+  ],
+  "hashes": {
+    "game_lab/store.py": "e2e9d8240ed74530dc1bd00d9626525a872a023a98aead07aeaecf8d1290d162",
+    "game_lab/runner.py": "b1b30fc39290c03d6bb630d2deef74946f06e9ddb58d27c8f3c644a9a364ee78",
+    "game_lab/provider.py": "968e0d14f8ac3c69a5296d7822ea0ef6791a401cd467f1a4e9c00bdadb82b460",
+    "game_lab/__init__.py": "262302b9f2681aedc496dd6e8d1c8010c40e1d47698d4324719b3aa82cc1d4d9",
+    "game_lab/engine.py": "875143ec37c4139de2a8fe972edd44481cc2f56cb2435b608ca62593e6789e7c",
+    "game_lab/__main__.py": "687133826cca779d4d692f905efea1cf68cf73dad35c9c9cb2cf41cf4d40aa6a",
+    "communication/design.py": "90fa2a81b65c80b26ede15df41709c261ac4362dc801cd2c40c08c0baa662a09",
+    "communication/configs/semantic_main.json": "c5a1f04bf2a2ee449ed7405cfaa3dceabe6df4273be2a542552ff228babe1ee1",
+    "communication/configs/semantic_smoke.json": "970c877efd86e374da01e143f0cc1a8f0af6dd15ef2c980a279e464252f42675",
+    "docs/communication_plan.md": "2d4e81114e62f569c46154bc9e48b85dde4e412146a8f1fcace02863e204a99d"
+  },
+  "source_hashes": {
+    "__init__.py": "262302b9f2681aedc496dd6e8d1c8010c40e1d47698d4324719b3aa82cc1d4d9",
+    "__main__.py": "687133826cca779d4d692f905efea1cf68cf73dad35c9c9cb2cf41cf4d40aa6a",
+    "engine.py": "875143ec37c4139de2a8fe972edd44481cc2f56cb2435b608ca62593e6789e7c",
+    "provider.py": "968e0d14f8ac3c69a5296d7822ea0ef6791a401cd467f1a4e9c00bdadb82b460",
+    "runner.py": "b1b30fc39290c03d6bb630d2deef74946f06e9ddb58d27c8f3c644a9a364ee78",
+    "store.py": "e2e9d8240ed74530dc1bd00d9626525a872a023a98aead07aeaecf8d1290d162"
+  },
+  "main_games": 32,
+  "main_model_choices": 960,
+  "excluded_smoke_model_choices": 12,
+  "windows": {
+    "before": [
+      1,
+      10
+    ],
+    "first_defection": [
+      11,
+      11
+    ],
+    "after_evidence": [
+      12,
+      30
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+model,order,block,included,pre_gap_pp,post_gap_pp,change_pp
+gemma3:4b,cooperate / defect,semantic-main-gemma3-4b-order0-repeat0,True,0.0,0.0,0.0
+gemma3:4b,cooperate / defect,semantic-main-gemma3-4b-order0-repeat1,True,0.0,0.0,0.0
+gemma3:4b,cooperate / defect,semantic-main-gemma3-4b-order0-repeat2,True,0.0,0.0,0.0
+gemma3:4b,cooperate / defect,semantic-main-gemma3-4b-order0-repeat3,True,0.0,0.0,0.0
+gemma3:4b,defect / cooperate,semantic-main-gemma3-4b-order1-repeat0,True,0.0,0.0,0.0
+gemma3:4b,defect / cooperate,semantic-main-gemma3-4b-order1-repeat1,True,0.0,0.0,0.0
+gemma3:4b,defect / cooperate,semantic-main-gemma3-4b-order1-repeat2,True,0.0,0.0,0.0
+gemma3:4b,defect / cooperate,semantic-main-gemma3-4b-order1-repeat3,True,0.0,0.0,0.0
+qwen3:4b,cooperate / defect,semantic-main-qwen3-4b-order0-repeat0,True,0.0,31.57894736842105,31.57894736842105
+qwen3:4b,cooperate / defect,semantic-main-qwen3-4b-order0-repeat1,True,9.999999999999998,31.57894736842105,21.578947368421055
+qwen3:4b,cooperate / defect,semantic-main-qwen3-4b-order0-repeat2,True,0.0,10.526315789473683,10.526315789473683
+qwen3:4b,cooperate / defect,semantic-main-qwen3-4b-order0-repeat3,True,0.0,26.315789473684216,26.315789473684216
+qwen3:4b,defect / cooperate,semantic-main-qwen3-4b-order1-repeat0,True,0.0,-5.263157894736848,-5.263157894736848
+qwen3:4b,defect / cooperate,semantic-main-qwen3-4b-order1-repeat1,True,0.0,-5.263157894736848,-5.263157894736848
+qwen3:4b,defect / cooperate,semantic-main-qwen3-4b-order1-repeat2,True,0.0,-10.526315789473683,-10.526315789473683
+qwen3:4b,defect / cooperate,semantic-main-qwen3-4b-order1-repeat3,True,0.0,0.0,0.0

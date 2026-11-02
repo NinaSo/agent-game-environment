@@ -1,0 +1,127 @@
+{
+  "replay": {
+    "status": "passed",
+    "verified_cases": 400,
+    "cases": {
+      "complete": 400
+    },
+    "attempts": {
+      "valid": 400
+    }
+  },
+  "verified_requests": 400,
+  "unique_prompt_texts": 20,
+  "scores": [
+    {
+      "study": "fixed_opponent_pd",
+      "model": "gemma3:4b",
+      "correct": 40,
+      "total": 80
+    },
+    {
+      "study": "fixed_opponent_pd",
+      "model": "qwen3:4b",
+      "correct": 41,
+      "total": 80
+    },
+    {
+      "study": "known_reward",
+      "model": "gemma3:4b",
+      "correct": 120,
+      "total": 120
+    },
+    {
+      "study": "known_reward",
+      "model": "qwen3:4b",
+      "correct": 112,
+      "total": 120
+    }
+  ],
+  "source_hashes": {
+    "followups/__init__.py": "99c20398544631bb2efd8db3a9cefe633e6fdbb13d872bfb97e99cc88f7fca77",
+    "followups/__main__.py": "8e496aec01265c6dd7f666d99c28b0f7bb416274ccc1c8806d286374e2b6df07",
+    "followups/studies.py": "590f7983fbeea70288f044671f7a61e70a881ac8e59562f420b740d575e73083",
+    "game_lab/engine.py": "3932965279f222e4bc61615fd43d585f66f1d1ed4c0d23a5aa50eec338c187c4",
+    "game_lab/provider.py": "968e0d14f8ac3c69a5296d7822ea0ef6791a401cd467f1a4e9c00bdadb82b460"
+  },
+  "provider_digests": {
+    "gemma3:4b": "68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7",
+    "qwen3:4b": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+  },
+  "excluded_smoke": {
+    "status": "passed",
+    "verified_cases": 4,
+    "cases": {
+      "complete": 4
+    },
+    "attempts": {
+      "valid": 4
+    }
+  },
+  "unchanged_original_source_config_result_files": 27,
+  "export_sha256": {
+    "results/followups/accuracy.png": "7f6ea101dd53623f2dc9bde30c3f3614b55df4cd363cefac1004590fa40f5bde",
+    "results/followups/accuracy.svg": "ef96f72572dac09bc678afe8870adfd1d6b96286df3f898fd9cfb1b31ff11eaf",
+    "results/followups/cases.csv": "a26e91d60498c7f677a277eb53cc72ffb1c4db5715dad43fd254d9bfd870baf6",
+    "results/followups/data.js": "efce0963db3fd9839feb8f080972d305c6c987de58ddf0dfb27a5848009bed82",
+    "results/followups/evidence.json": "b5f648cde5dc71e4cc65d9aad193f422ecce18e30ed70ee97db3aab5930b06ea",
+    "results/followups/report.json": "171e64b73cc9a34a8b2126ebd7ad429c6066c41678c4775c312dc1c040768751",
+    "results/followups/summary.csv": "5a7ea039e961923f7828453a9266c7a5ada01f2bad989646e361028a7bbf0b6f"
+  },
+  "status": "passed",
+  "original_pilot_tables_unchanged_from_archive": {
+    "pilot_core": {
+      "attempts": {
+        "rows": 3600,
+        "sha256": "1b31b505d73ec5757b9269479e9e2c6f2e30581f801f0c152f4dd86659df63a4"
+      },
+      "decisions": {
+        "rows": 3600,
+        "sha256": "cd0ead027b0b690547f815f52c6e4ea26af993d33e41504da2803fc478b2c2b7"
+      },
+      "episodes": {
+        "rows": 48,
+        "sha256": "e0d9a119118216ea81d6e4f3d8784afacf141734e4a027cf4deee94fe4e99bce"
+      },
+      "manifest": {
+        "rows": 9,
+        "sha256": "1f18a693c05ae6fcccbf00e687a62c5e71771b5c12f4cbc9429830e13c863568"
+      },
+      "rounds": {
+        "rows": 1800,
+        "sha256": "40a1db924f7c76dcd871d49c33274d723d68145b879c2c2d15cc59f498eaecdd"
+      }
+    },
+    "pilot_stress": {
+      "attempts": {
+        "rows": 960,
+        "sha256": "9a1b7e485582f55a9ffce08464f1020f953b4a7e9245ada3952070f52bc6e79c"
+      },
+      "decisions": {
+        "rows": 960,
+        "sha256": "8ec3f07fcc0c8080e0a53c8300d793f54e2562aa373e711a189d0fd3a77e1743"
+      },
+      "episodes": {
+        "rows": 16,
+        "sha256": "28afe107a4f791ab009273ae5be4b599bd51cfb31e3070c7ac2f7dbb94e4323c"
+      },
+      "manifest": {
+        "rows": 9,
+        "sha256": "66cb77106163f489a6f64361d77819efef36079bb794f01bc6f9e220d48c8818"
+      },
+      "rounds": {
+        "rows": 480,
+        "sha256": "e90b7a85656ea04496a90bd81fa8d72762008c7301be56b58c80cf341ff90162"
+      }
+    }
+  },
+  "final_presentation_sha256": {
+    "dashboard/index.html": "926145705b362e87eb3c751e7e92b9b1c4770b7d9229026e9fb98dede7ec165e",
+    "dashboard/app.js": "fd878426339e56a16a4637c0b5287c86acd0d68fec422d0f992653d6d53c19a7",
+    "dashboard/followups.js": "63975fd273e9bc6b77ee10aae91c4f6bcfe324e9b1cf358084e0ed427cd5dd55",
+    "dashboard/style.css": "ceb64cc45f68cda9f9b388f2a372422f95a695c8e97f2a9b81adc286bea80445",
+    "make_followup_figure.py": "96b27bdf31e847563f1c73a48147480ff4f25cffffc08b5aafbd5703569ada29",
+    "package_review.py": "cb9da78cfe67db374e0d035538a4e5fdb23aa88e8367904ebca6f8eaf81e8cd7",
+    "docs/followup_findings.md": "0f727929d8e9568f902d2bd4945abe76843e43ac08031ef7da08f4ebe2b3b8f7"
+  }
+}

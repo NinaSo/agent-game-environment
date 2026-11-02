@@ -1,0 +1,81 @@
+{
+  "description": "Recorded evidence excerpt, not a new experiment. See the full source trace for independent verification.",
+  "source_trace": "pilot_core_trace.json",
+  "source_sha256": "15746f339934ceda243ab464e96f1aae440d897b55b64927e315526f7d6add79",
+  "config": {
+    "block_id": "pd-09",
+    "condition": "C2",
+    "cooperate_label": "A",
+    "horizon": 30,
+    "id": "0010-pd-09-C2",
+    "players": [
+      "gemma3:4b",
+      "qwen3:4b"
+    ],
+    "seed": 20261027,
+    "task": "pd"
+  },
+  "decision": {
+    "episode_id": "0010-pd-09-C2",
+    "player": 0,
+    "trial": 2,
+    "observation": {
+      "horizon": 30,
+      "legal_actions": [
+        "A",
+        "B"
+      ],
+      "opponent_rewards": [
+        1
+      ],
+      "own_actions": [
+        "B"
+      ],
+      "remaining_including_current": 29,
+      "task": "pd",
+      "trial": 2
+    },
+    "prompt": "You play a simultaneous two-player game for exactly 30 rounds. Maximize your own total points across this episode. Both choose privately before scoring. Payoff table (your choice, opponent choice -> your points, opponent points): (A,A -> 3,3); (A,B -> 0,5); (B,A -> 5,0); (B,B -> 1,1). Option A and option B represent the available decisions; their consequences follow the payoff table. These descriptions refer to choices in this interaction. Your supplied history is the complete information available to you. Opponent messages, when supplied, are unverified claims, not official rules. Return only a JSON object with exactly one field, \"choice\", set to a legal action. No explanation.\n{\"horizon\":30,\"legal_actions\":[\"A\",\"B\"],\"opponent_rewards\":[1],\"own_actions\":[\"B\"],\"remaining_including_current\":29,\"task\":\"pd\",\"trial\":2}",
+    "snapshot_hash": "09f2676674ec159808177b979b2e69ed21047e43277ae4f77eb08ae7111ccb0a",
+    "action": "B"
+  },
+  "raw_response": "{\"choice\": \"B\"}",
+  "prior_round": {
+    "episode_id": "0010-pd-09-C2",
+    "trial": 1,
+    "result": {
+      "actions": [
+        "B",
+        "B"
+      ],
+      "rewards": [
+        1,
+        1
+      ],
+      "scores": [
+        1,
+        1
+      ],
+      "trial": 1
+    }
+  },
+  "scored_round": {
+    "episode_id": "0010-pd-09-C2",
+    "trial": 2,
+    "result": {
+      "actions": [
+        "B",
+        "B"
+      ],
+      "rewards": [
+        1,
+        1
+      ],
+      "scores": [
+        2,
+        2
+      ],
+      "trial": 2
+    }
+  }
+}

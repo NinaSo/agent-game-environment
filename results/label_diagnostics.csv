@@ -1,0 +1,13 @@
+model,condition,cooperate_label,episodes,literal_A_count,decisions,cooperation_rate,analysis_status
+gemma3:4b,C1,A,6,0,180,0.0,post_hoc_descriptive_label_check
+gemma3:4b,C1,B,6,180,180,0.0,post_hoc_descriptive_label_check
+gemma3:4b,C2,A,6,0,180,0.0,post_hoc_descriptive_label_check
+gemma3:4b,C2,B,6,180,180,0.0,post_hoc_descriptive_label_check
+gemma3:4b,C3,A,6,0,180,0.0,post_hoc_descriptive_label_check
+gemma3:4b,C3,B,6,156,180,0.13333333333333333,post_hoc_descriptive_label_check
+qwen3:4b,C1,A,6,0,180,0.0,post_hoc_descriptive_label_check
+qwen3:4b,C1,B,6,0,180,1.0,post_hoc_descriptive_label_check
+qwen3:4b,C2,A,6,0,180,0.0,post_hoc_descriptive_label_check
+qwen3:4b,C2,B,6,0,180,1.0,post_hoc_descriptive_label_check
+qwen3:4b,C3,A,6,1,180,0.005555555555555556,post_hoc_descriptive_label_check
+qwen3:4b,C3,B,6,0,180,1.0,post_hoc_descriptive_label_check

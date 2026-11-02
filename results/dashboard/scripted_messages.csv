@@ -1,0 +1,5 @@
+model,group,numerator,denominator,fraction
+gemma3:4b,neutral,0,80,0.0
+qwen3:4b,neutral,33,80,0.4125
+gemma3:4b,promise,0,80,0.0
+qwen3:4b,promise,27,80,0.3375

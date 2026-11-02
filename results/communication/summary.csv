@@ -1,0 +1,61 @@
+model,condition,window,order,games,complete_games,cooperative,observed,planned,missing,rate
+gemma3:4b,neutral,after_evidence,all,8,8,76,152,152,0,0.5
+gemma3:4b,neutral,all_rounds,all,8,8,120,240,240,0,0.5
+gemma3:4b,neutral,before,all,8,8,40,80,80,0,0.5
+gemma3:4b,neutral,first_defection,all,8,8,4,8,8,0,0.5
+gemma3:4b,neutral,legacy_post,all,8,8,80,160,160,0,0.5
+gemma3:4b,promise,after_evidence,all,8,8,76,152,152,0,0.5
+gemma3:4b,promise,all_rounds,all,8,8,120,240,240,0,0.5
+gemma3:4b,promise,before,all,8,8,40,80,80,0,0.5
+gemma3:4b,promise,first_defection,all,8,8,4,8,8,0,0.5
+gemma3:4b,promise,legacy_post,all,8,8,80,160,160,0,0.5
+qwen3:4b,neutral,after_evidence,all,8,8,127,152,152,0,0.8355263157894737
+qwen3:4b,neutral,all_rounds,all,8,8,214,240,240,0,0.8916666666666667
+qwen3:4b,neutral,before,all,8,8,79,80,80,0,0.9875
+qwen3:4b,neutral,first_defection,all,8,8,8,8,8,0,1.0
+qwen3:4b,neutral,legacy_post,all,8,8,135,160,160,0,0.84375
+qwen3:4b,promise,after_evidence,all,8,8,142,152,152,0,0.9342105263157895
+qwen3:4b,promise,all_rounds,all,8,8,230,240,240,0,0.9583333333333334
+qwen3:4b,promise,before,all,8,8,80,80,80,0,1.0
+qwen3:4b,promise,first_defection,all,8,8,8,8,8,0,1.0
+qwen3:4b,promise,legacy_post,all,8,8,150,160,160,0,0.9375
+gemma3:4b,neutral,after_evidence,cooperate / defect,4,4,0,76,76,0,0.0
+gemma3:4b,neutral,after_evidence,defect / cooperate,4,4,76,76,76,0,1.0
+gemma3:4b,neutral,all_rounds,cooperate / defect,4,4,0,120,120,0,0.0
+gemma3:4b,neutral,all_rounds,defect / cooperate,4,4,120,120,120,0,1.0
+gemma3:4b,neutral,before,cooperate / defect,4,4,0,40,40,0,0.0
+gemma3:4b,neutral,before,defect / cooperate,4,4,40,40,40,0,1.0
+gemma3:4b,neutral,first_defection,cooperate / defect,4,4,0,4,4,0,0.0
+gemma3:4b,neutral,first_defection,defect / cooperate,4,4,4,4,4,0,1.0
+gemma3:4b,neutral,legacy_post,cooperate / defect,4,4,0,80,80,0,0.0
+gemma3:4b,neutral,legacy_post,defect / cooperate,4,4,80,80,80,0,1.0
+gemma3:4b,promise,after_evidence,cooperate / defect,4,4,0,76,76,0,0.0
+gemma3:4b,promise,after_evidence,defect / cooperate,4,4,76,76,76,0,1.0
+gemma3:4b,promise,all_rounds,cooperate / defect,4,4,0,120,120,0,0.0
+gemma3:4b,promise,all_rounds,defect / cooperate,4,4,120,120,120,0,1.0
+gemma3:4b,promise,before,cooperate / defect,4,4,0,40,40,0,0.0
+gemma3:4b,promise,before,defect / cooperate,4,4,40,40,40,0,1.0
+gemma3:4b,promise,first_defection,cooperate / defect,4,4,0,4,4,0,0.0
+gemma3:4b,promise,first_defection,defect / cooperate,4,4,4,4,4,0,1.0
+gemma3:4b,promise,legacy_post,cooperate / defect,4,4,0,80,80,0,0.0
+gemma3:4b,promise,legacy_post,defect / cooperate,4,4,80,80,80,0,1.0
+qwen3:4b,neutral,after_evidence,cooperate / defect,4,4,51,76,76,0,0.6710526315789473
+qwen3:4b,neutral,after_evidence,defect / cooperate,4,4,76,76,76,0,1.0
+qwen3:4b,neutral,all_rounds,cooperate / defect,4,4,94,120,120,0,0.7833333333333333
+qwen3:4b,neutral,all_rounds,defect / cooperate,4,4,120,120,120,0,1.0
+qwen3:4b,neutral,before,cooperate / defect,4,4,39,40,40,0,0.975
+qwen3:4b,neutral,before,defect / cooperate,4,4,40,40,40,0,1.0
+qwen3:4b,neutral,first_defection,cooperate / defect,4,4,4,4,4,0,1.0
+qwen3:4b,neutral,first_defection,defect / cooperate,4,4,4,4,4,0,1.0
+qwen3:4b,neutral,legacy_post,cooperate / defect,4,4,55,80,80,0,0.6875
+qwen3:4b,neutral,legacy_post,defect / cooperate,4,4,80,80,80,0,1.0
+qwen3:4b,promise,after_evidence,cooperate / defect,4,4,70,76,76,0,0.9210526315789473
+qwen3:4b,promise,after_evidence,defect / cooperate,4,4,72,76,76,0,0.9473684210526315
+qwen3:4b,promise,all_rounds,cooperate / defect,4,4,114,120,120,0,0.95
+qwen3:4b,promise,all_rounds,defect / cooperate,4,4,116,120,120,0,0.9666666666666667
+qwen3:4b,promise,before,cooperate / defect,4,4,40,40,40,0,1.0
+qwen3:4b,promise,before,defect / cooperate,4,4,40,40,40,0,1.0
+qwen3:4b,promise,first_defection,cooperate / defect,4,4,4,4,4,0,1.0
+qwen3:4b,promise,first_defection,defect / cooperate,4,4,4,4,4,0,1.0
+qwen3:4b,promise,legacy_post,cooperate / defect,4,4,74,80,80,0,0.925
+qwen3:4b,promise,legacy_post,defect / cooperate,4,4,76,80,80,0,0.95
