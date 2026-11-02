@@ -21,50 +21,67 @@ The suite runs these stages in order:
 
 ## Prepare the experiment terminal
 
-On this workstation:
+Use Python 3.11 or newer (Python 3.12 is used in CI), Git, and a terminal on macOS or Linux. On Windows, run the Python experiment in WSL; native Windows is not supported by the runner's file locking. Install Python from [python.org](https://www.python.org/downloads/) or your operating system's package manager.
 
-```zsh
-cd /path/to/agent_game_lab
-source .runtime/verify-venv/bin/activate
-```
-
-On another machine, install Python 3.11 or newer and create a separate project environment:
+Clone the repository and enter it:
 
 ```sh
+git clone https://github.com/NinaSo/agent-game-environment.git
+cd agent-game-environment
+python3 --version
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -e '.[test]'
+python -m pip install -e '.[test,plots]'
 ```
 
-Do not install serving engines into the experiment environment. Their dependencies and hardware requirements are separate.
+Alternatively, download **Code → Download ZIP** on GitHub, extract it, open a terminal inside the extracted directory, and start at `python3 --version` above.
+
+- `pyproject.toml` declares the Python dependencies. The install command includes testing and plotting dependencies; you do not need to install them individually.
+- If creating the environment fails because `venv` is unavailable, install your operating system's Python venv package first.
+- In each new experiment terminal, enter the repository and run `source .venv/bin/activate`.
+- Ollama and its model files are installed separately below. Do not install vLLM or SGLang into this Python environment; use a separate server environment for those providers.
+
+Check the code without loading a model:
+
+```sh
+python scripts/replay_fixture.py
+python -m pytest -q
+```
+
+The synthetic replay and tests require no inference service or API key. They do not run the model studies.
 
 ## A. Ollama
 
-Prerequisites: a running Ollama server and downloaded local models. No API key is needed for local inference. [Official CLI reference](https://docs.ollama.com/cli).
+### 1. Install and start the local server
 
-On this workstation, start the already installed project runtime in a **second terminal** and leave it running:
+Install Ollama using its [official download instructions](https://ollama.com/download). See also the [quickstart](https://docs.ollama.com/quickstart) and [CLI reference](https://docs.ollama.com/cli). Open a new terminal after installation if `ollama` is not found.
 
-```zsh
-cd /path/to/agent_game_lab
-OLLAMA_HOST=127.0.0.1:11434 \
-OLLAMA_MODELS="$PWD/.runtime/models" \
-OLLAMA_NO_CLOUD=1 \
-.runtime/bin/ollama serve
+Open the Ollama app, or, if no server is already running, run this in a **second terminal** and leave it open:
+
+```sh
+OLLAMA_HOST=127.0.0.1:11434 ollama serve
 ```
 
-In the experiment terminal, list installed models or download new ones when needed:
+The included `configs/providers/provider_ollama.json` selects Ollama and defaults to `http://127.0.0.1:11434`. No API key is needed for these local models. If the port is already in use, check the existing server instead of starting another copy. With WSL, run the server inside the same WSL environment for this loopback setup.
 
-```zsh
-.runtime/bin/ollama list
-# Replace MODEL_ID with an Ollama model name if another model is needed:
-# .runtime/bin/ollama pull MODEL_ID
+### 2. Download and check the models
+
+In the experiment terminal:
+
+```sh
+ollama pull qwen3:4b
+ollama pull gemma3:4b
+ollama list
+curl --fail http://127.0.0.1:11434/api/tags
 ```
 
-With a normal system installation, use `ollama serve`, `ollama list` and `ollama pull MODEL_ID` instead; keep the same model store/server throughout the collection.
+- Both exact model names should appear. Downloads require internet access and several GB of disk space. Inference also needs enough available RAM/VRAM for the model and 8,192-token context; speed depends on the hardware.
+- The repository does not contain model weights. Keep the same server and model store throughout a run.
+- A current download may differ from the historical model revision. New results are replications, not guaranteed identical outputs; the pipeline records model metadata.
 
-Generate and run a fresh suite:
+### 3. Generate the study, then run it
 
-```zsh
+```sh
 python -m game_lab suite generate \
   --models qwen3:4b gemma3:4b \
   --provider-config configs/providers/provider_ollama.json \
@@ -73,7 +90,24 @@ python -m game_lab suite generate \
 python -m game_lab suite run experiments/ollama_01/suite.json
 ```
 
-Substitute other installed model IDs and a new output directory for a new experiment.
+- Generation writes configurations only; `suite run` starts model collection.
+- The full two-model suite makes 5,440 main decisions plus smoke checks and bounded retries. It can take substantial time on local hardware.
+- Each stage automatically runs tests, backend checks, a separate smoke collection, and replay before proceeding to its main collection. A failed technical gate stops that stage.
+- Substitute other installed model IDs and a new output directory for a new experiment.
+- To begin with only the reward controls, use `python -m game_lab suite run experiments/ollama_01/suite.json --only reward_controls`. This runs the full reward-control stage, not just a smoke test. Later, run the suite without `--only` to resume and continue the other stages.
+
+### Setup troubleshooting
+
+| Symptom | What to check |
+| --- | --- |
+| `ollama: command not found` | Install Ollama and reopen the terminal. |
+| Connection refused at port 11434 | Start the app/server; verify `/api/tags` responds in the experiment's environment. |
+| Model not found | Run `ollama pull` for the exact ID on the same server used by the experiment. |
+| Out-of-memory error or slow inference | Free memory or choose a smaller compatible model in a new suite; do not edit an existing frozen run. |
+| Python module or plotting dependency missing | Activate `.venv` and repeat `python -m pip install -e '.[test,plots]'` from the repository root. |
+| A pipeline gate fails | Read `suite_status.json` and the stage's `.sqlite.preflight/` evidence; correct the reported problem before resuming. |
+
+See **Outputs, reruns and selected stages** below for saved files, resume behavior, and report-export commands. New collection does not automatically replace the historical dashboard.
 
 ## B. vLLM
 
@@ -260,7 +294,7 @@ python -m communication.report experiments/ollama_01/runs/communication.sqlite \
   --out experiments/ollama_01/results/communication
 ```
 
-Communication figure generation additionally needs Matplotlib (available in this workstation's verification environment).
+Communication figure generation needs Matplotlib, included by the `.[test,plots]` installation above.
 
 ## Adding a later strategy investigation cleanly
 

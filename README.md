@@ -39,6 +39,14 @@ python3 -m venv .venv
 
 Installation downloads Python dependencies. The fixture and tests make no model inference calls and require no API key or model weights. Dependency installation and the full suite can take longer than five minutes. CI runs the current checks; older review documents retain their historical test counts.
 
+## Run new experiments
+
+Start with the [fresh-machine setup guide](docs/rerun_guide.md#prepare-the-experiment-terminal). It covers downloading this repository, installing Python dependencies, installing Ollama, downloading Qwen/Gemma, checking the server, running the suite, exporting results, and troubleshooting.
+
+- Python dependencies: `python -m pip install -e '.[test,plots]'` inside an activated virtual environment.
+- Ollama and model weights are separate installations; local inference requires no API key.
+- The full suite runs controls, games, and scripted communication, with automatic technical gates before each stage. It makes thousands of model calls; reviewing saved results requires none.
+
 ## Design
 
 ```mermaid
