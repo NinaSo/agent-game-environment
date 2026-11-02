@@ -7,7 +7,7 @@ An auditable environment for testing how language models choose under competitio
 - **Communication:** scripted neutral messages versus promises that later become false.
 - **Engineering:** bounded requests, isolated memory, durable logs, replay, and automatic technical gates.
 
-**[Open the live dashboard](https://ninaso.github.io/agent-game-environment/)** · [Code map](docs/code_map.md) · [Engineering decisions](docs/engineering_decisions.md) · [Rerun guide](docs/rerun_guide.md) · [Interview walkthrough](docs/interview_guide.md) · [Full evidence](https://github.com/NinaSo/agent-game-environment/releases/tag/evidence-2026-11-02)
+**[Open the live dashboard](https://ninaso.github.io/agent-game-environment/)** · [Code map](docs/code_map.md) · [Engineering decisions](docs/engineering_decisions.md) · [Rerun guide](docs/rerun_guide.md) · [Interview walkthrough](docs/interview_guide.md) · [Full evidence](docs/publication.md#full-historical-evidence)
 
 ![Dashboard preview](docs/portfolio_preview.jpg)
 

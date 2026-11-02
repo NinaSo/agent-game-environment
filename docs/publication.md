@@ -6,9 +6,12 @@ The dashboard is a static presentation of saved results. Building or opening it 
 
 - [Live dashboard](https://ninaso.github.io/agent-game-environment/)
 - [Source repository](https://github.com/NinaSo/agent-game-environment)
-- [Full evidence release: 2 November 2026](https://github.com/NinaSo/agent-game-environment/releases/tag/evidence-2026-11-02)
 
-Download `agent-game-lab-evidence.zip` (91,563,429 bytes) and `SHA256SUMS` from the release. Verify before extracting, from the download directory:
+## Full historical evidence
+
+**Available on request.** The complete 2 November 2026 evidence archive is prepared, but is not currently a public download. Request it from the repository owner through the contact channel in which this project was shared. The repository includes summary tables and selected examples. There is no public release URL to follow yet.
+
+When supplied, the archive is named `agent-game-lab-evidence.zip` (91,563,429 bytes) and is accompanied by `SHA256SUMS`. Verify before extracting, from the download directory:
 
 ```sh
 shasum -a 256 -c SHA256SUMS

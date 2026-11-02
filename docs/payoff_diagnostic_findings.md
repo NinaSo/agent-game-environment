@@ -66,6 +66,6 @@ Each entry is correct choices / 20 planned responses. Prompt order refers to own
 
 - [Plan](payoff_diagnostic_plan.md)
 - [All cases](../results/diagnostic/cases.csv), [factor summaries](../results/diagnostic/summary.csv), [matched comparisons](../results/diagnostic/paired.csv)
-- [Exact requests and replies](https://github.com/NinaSo/agent-game-environment/releases/tag/evidence-2026-11-02)
+- [Exact requests and replies](publication.md#full-historical-evidence)
 - [Independent scientific audit](payoff_diagnostic_correctness_data_audit.json), [integrity audit](payoff_diagnostic_data_integrity.json), [supervisor scoring](payoff_diagnostic_supervisor_audit.json)
 - Source snapshot: `diagnostic/source_snapshot/`; collection gate: `payoff_diagnostic_collection_gate.json`.

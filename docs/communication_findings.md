@@ -54,4 +54,4 @@ These averages combine different observed patterns; use the separate-order resul
 - Histories evolve independently; the opponent switches in both conditions. Changes cannot be attributed solely to recognition of false promises.
 - Next: vary prompt order and output-format order independently; compare identical histories; include a consistently cooperative opponent if isolating reactions to broken promises.
 
-[Design](communication_plan.md) · [All matched pairs](../results/communication/pairs.csv) · [All choices](../results/communication/choices.csv) · [Full trace](https://github.com/NinaSo/agent-game-environment/releases/tag/evidence-2026-11-02)
+[Design](communication_plan.md) · [All matched pairs](../results/communication/pairs.csv) · [All choices](../results/communication/choices.csv) · [Full trace](publication.md#full-historical-evidence)
